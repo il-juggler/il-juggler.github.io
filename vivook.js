@@ -149,14 +149,8 @@ function init() {
                 .style('opacity', 0.8)
                 .attr("d", 
                     d3.area()
-                        .x((l,n) => {
-                          //  console.log('N', n, '->', x(n))
-                           return x(n)
-                        })
-                        .y0(d => {
-                            //console.log('N', d.vAnt, '->', y(d.vAnt))
-                            return y(d.vAnt)
-                        })
+                        .x((l,n) => x(n))
+                        .y0(d => y(d.vAnt))
                         .y1(d => y(d.vAnt))
                 );
 
