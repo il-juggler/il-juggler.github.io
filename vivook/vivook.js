@@ -59,22 +59,28 @@ function init() {
     ['2017', '2018', '2019'].forEach( (r,idx) => {
         let sumData = 0;
 
+        console.log( 'num:', data[ Number(r) - 1] );
         data[r] = {
             nombre : r,
             fill: d3.schemeCategory10[idx],
             months : months.map((month, idx) => {
                 sumData +=  vals[r][idx];
-                return {month, v: vals[r][idx], value : sumData}
+                return {
+                    month, 
+                    v: vals[r][idx], 
+                    value:sumData, 
+                    vAnt : r == '2017' ? 0 : data[ Number(r) - 1].months[idx+1].value
+                }
             })
         }
 
-        data[r].months.unshift({month:0, v:0,value:0 })
+        data[r].months.unshift({month:0, v:0,value:0, vAnt:0})
         data[r].maxVal = data[r].months[12].value
     });
 
 
-    const dCrec2019 = creceData(data[2018], 1.296568, '#999999')
-    const dCrec2020 = creceData(data[2019], 1.25, d3.schemeCategory10[5])
+    const dCrec2019 = creceData(data[2018], 1.296568, d3.schemeCategory10[6] )
+    const dCrec2020 = creceData(data[2019], 1.25, d3.schemeCategory10[8])
 
     function creceData(d, pCrecimiento, fill) {
         let dddd=  {
@@ -106,6 +112,7 @@ function init() {
     svg.append('g').call(xAxis).attr('transform', 'translate(0, ' + h+ ')');
 
     var gGrid = svg.append('g');
+
     
     d3.range(0,13).forEach((d) => {
         //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
@@ -133,6 +140,7 @@ function init() {
     function start(){
         [dCrec2019, dCrec2020, data[2019], data[2018], data[2017]].forEach( (d1,idx) => {
             
+
             svg.append('path').attr('class', 'anual '+'y-'+d1.nombre)
                 .datum(d1.months)
                 .attr("fill",d1.fill)
@@ -141,11 +149,18 @@ function init() {
                 .style('opacity', 0.8)
                 .attr("d", 
                     d3.area()
-                        .x((l,n) => x(n))
-                        .y0(d => y(0))
-                        .y1(d => y(0))
+                        .x((l,n) => {
+                          //  console.log('N', n, '->', x(n))
+                           return x(n)
+                        })
+                        .y0(d => {
+                            //console.log('N', d.vAnt, '->', y(d.vAnt))
+                            return y(d.vAnt)
+                        })
+                        .y1(d => y(d.vAnt))
                 );
 
+            
             svg.append('text').attr('class', 'y-'+d1.nombre)
                 .attr('x', w-170)
                 .attr('y', y(d1.months[12].value))
@@ -162,7 +177,7 @@ function init() {
             .attr("d", 
                     d3.area()
                         .x((l,n) => x(n))
-                        .y0(d => y(0))
+                        .y0(d => y(d.vAnt))
                         .y1(d => y(d.value))
                 )
             .on('end', r =>{
@@ -177,7 +192,7 @@ function init() {
                 .attr("d", 
                         d3.area()
                             .x((l,n) => x(n))
-                            .y0(d => y(0))
+                            .y0(d => y(d.vAnt))
                             .y1(d => y(d.value))
                 )
                 .on('end', r =>{
@@ -195,7 +210,7 @@ function init() {
             .attr("d", 
                 d3.area()
                     .x((l,n) => x(n))
-                    .y0(d => y(0))
+                    .y0(d => y(d.vAnt))
                     .y1(d => y(d.value))
             );
 
@@ -205,15 +220,20 @@ function init() {
             .attr("d", 
                 d3.area()
                     .x((l,n) => x(n))
-                    .y0(d => y(0))
+                    .y0(d => y(d.vAnt))
                     .y1(d => y(d.value))
             );
 
+        svg.select('path.y-2019')
+            //.transition().duration(2000)
+            .attr("d", 
+                d3.area()
+                    .x((l,n) => x(n))
+                    .y0(d => y(d.vAnt))
+                    .y1(d => y(d.vAnt))
+            );
+
             d3.range(0,15).forEach((d) => {
-                //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
-
-                
-
                 gGrid.select('line' +'.yline-' + d)
                     .transition().duration(2000)
                     .attr('y1',y(d * 1000000))
@@ -228,7 +248,7 @@ function init() {
 
         svg.select('path.y-p-2019')
                 .transition().duration(1).delay(2000)
-                .style('opacity', 1)
+                .style('opacity', 0.8)
                 .attr("d", 
                     d3.area()
                         .x((l,n) => x(n))
@@ -247,8 +267,6 @@ function init() {
                 .on('end', r=> {
                     svg.select('text.y-p-2019').attr('y', y(max2019)).attr('opacity', 1)
                 })
-
-                
             })
             
     }
@@ -259,7 +277,7 @@ function init() {
             .attr("d", 
                     d3.area()
                         .x((l,n) => x(n))
-                        .y0(d => y(0))
+                        .y0(d => y(d.vAnt))
                         .y1(d => y(d.value))
                 )
             .on('end', r =>{
@@ -275,7 +293,6 @@ function init() {
                 svg.select('text.y-p-2019').attr('y', y(max2019)).attr('opacity', 0)
             })
 
-        
     }
 
 
@@ -287,7 +304,7 @@ function init() {
             .attr("d", 
                 d3.area()
                     .x((l,n) => x(n))
-                    .y0(d => y(0))
+                    .y0(d => y(d.vAnt))
                     .y1(d => y(d.value))
             );
 
@@ -296,25 +313,23 @@ function init() {
             .attr("d", 
                 d3.area()
                     .x((l,n) => x(n))
-                    .y0(d => y(0))
+                    .y0(d => y(d.vAnt))
                     .y1(d => y(d.value))
             );
-
+    
         svg.select('path.y-2019')
             .transition().duration(2000)
             .attr("d", 
                 d3.area()
                     .x((l,n) => x(n))
-                    .y0(d => y(0))
+                    .y0(d => y(d.vAnt))
                     .y1(d => y(d.value))
             );
+       
 
 
             d3.range(0,15).forEach((d) => {
                 //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
-
-                
-
                 gGrid.select('line' +'.yline-' + d)
                     .transition().duration(2000)
                     .attr('y1',y(d * 1000000))
@@ -328,7 +343,7 @@ function init() {
 
 
         svg.select('path.y-p-2020')
-                .style('opacity', 1)
+                .style('opacity', 0.8)
                 .attr("d", 
                     d3.area()
                         .x((l,n) => x(n))
@@ -351,10 +366,10 @@ function init() {
     
     start();
     setTimeout(aniosAnteriores, 0)
-    setTimeout(crecimiento2019, 9000)
-    setTimeout(ventas2019, 12000)
-    setTimeout(crecimiento2020, 16000)
-
+    setTimeout(crecimiento2019, 8000)
+    setTimeout(ventas2019, 14000)
+    setTimeout(crecimiento2020, 19000)
+    
 
 }
 
