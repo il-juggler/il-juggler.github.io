@@ -72,7 +72,7 @@ function init() {
 
 
     const dCrec2019 = creceData(data[2018], 1.296568, '#999999')
-    const dCrec2020 = creceData(data[2019], 1.25, d3.schemeCategory10[9])
+    const dCrec2020 = creceData(data[2019], 1.25, d3.schemeCategory10[5])
 
     function creceData(d, pCrecimiento, fill) {
         return {
