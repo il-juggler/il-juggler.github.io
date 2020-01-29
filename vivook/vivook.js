@@ -67,7 +67,9 @@ function init() {
                 return {month, v: vals[r][idx], value : sumData}
             })
         }
+
         data[r].months.unshift({month:0, v:0,value:0 })
+        data[r].maxVal = data[r].months[12].value
     });
 
 
@@ -75,7 +77,7 @@ function init() {
     const dCrec2020 = creceData(data[2019], 1.25, d3.schemeCategory10[5])
 
     function creceData(d, pCrecimiento, fill) {
-        return {
+        let dddd=  {
             fill : fill,
             nombre : 'p-' + String(Number(d.nombre)+1),
             label : 'Meta ' + String(Number(d.nombre)+1),
@@ -83,11 +85,14 @@ function init() {
                 return {month:d.month, vAnt:d.value, value:d.value*pCrecimiento}
             })
         }
+
+        dddd.maxVal = dddd.months[12].value
+        return dddd;
     }
 
-    const max2018 = d3.max(data[2018].months.map(d => d.value));
+    const max2018 = 10000000
     const max2019 = d3.max(dCrec2019.months.map(d => d.value));
-    const max2020 = d3.max(dCrec2020.months.map(d => d.value));
+    const max2020 = 14000000
 
     var w = window.innerWidth - 50;
     var h = window.innerHeight - 50;
@@ -217,8 +222,8 @@ function init() {
             })
             
 
-        svg.select('text.y-2017').transition().duration(2000).attr('y', y(data[2017].months[12].value)) 
-        svg.select('text.y-2018').transition().duration(2000).attr('y', y(data[2018].months[12].value)) 
+        svg.select('text.y-2017').transition().duration(2000).attr('y', y(data[2017].maxVal)) 
+        svg.select('text.y-2018').transition().duration(2000).attr('y', y(data[2018].maxVal)) 
 
 
         svg.select('path.y-p-2019')
@@ -258,7 +263,7 @@ function init() {
                         .y1(d => y(d.value))
                 )
             .on('end', r =>{
-                svg.select('text.y-2019').attr('opacity', 1).attr('y', y(data[2019].months[12].value)) 
+                svg.select('text.y-2019').attr('opacity', 1).attr('y', y(data[2019].maxVal)) 
             })
         
         svg.select('path.y-p-2019')
@@ -317,9 +322,9 @@ function init() {
                 
             })
 
-        svg.select('text.y-2017').transition().duration(2000).attr('y', y(data[2017].months[12].value)) 
-        svg.select('text.y-2018').transition().duration(2000).attr('y', y(data[2018].months[12].value)) 
-        svg.select('text.y-2019').transition().duration(2000).attr('y', y(data[2019].months[12].value)) 
+        svg.select('text.y-2017').transition().duration(2000).attr('y', y(data[2017].maxVal)) 
+        svg.select('text.y-2018').transition().duration(2000).attr('y', y(data[2018].maxVal)) 
+        svg.select('text.y-2019').transition().duration(2000).attr('y', y(data[2019].maxVal)) 
 
 
         svg.select('path.y-p-2020')
