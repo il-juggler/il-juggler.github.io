@@ -104,12 +104,23 @@ function init() {
     
     d3.range(0,13).forEach((d) => {
         //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
-
         gGrid.append('line')
             .attr('x1',x(d))
             .attr('x2',x(d))
             .attr('y1',20)
             .attr('y2',h)
+            .attr('stroke', '#AAA')
+            .attr('stroke-width', '1')
+    });
+
+    d3.range(0,15).forEach((d) => {
+        //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
+        gGrid.append('line')
+            .attr('class','yline-' + d)
+            .attr('x1',20)
+            .attr('x2',w-250)
+            .attr('y1',y(d * 1000000))
+            .attr('y2',y(d * 1000000))
             .attr('stroke', '#AAA')
             .attr('stroke-width', '1')
     })
@@ -192,6 +203,19 @@ function init() {
                     .y0(d => y(0))
                     .y1(d => y(d.value))
             );
+
+            d3.range(0,15).forEach((d) => {
+                //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
+
+                
+
+                gGrid.select('line' +'.yline-' + d)
+                    .transition().duration(2000)
+                    .attr('y1',y(d * 1000000))
+                    .attr('y2',y(d * 1000000))
+                
+            })
+            
 
         svg.select('text.y-2017').transition().duration(2000).attr('y', y(data[2017].months[12].value)) 
         svg.select('text.y-2018').transition().duration(2000).attr('y', y(data[2018].months[12].value)) 
@@ -281,12 +305,23 @@ function init() {
             );
 
 
+            d3.range(0,15).forEach((d) => {
+                //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
+
+                
+
+                gGrid.select('line' +'.yline-' + d)
+                    .transition().duration(2000)
+                    .attr('y1',y(d * 1000000))
+                    .attr('y2',y(d * 1000000))
+                
+            })
+
         svg.select('text.y-2017').transition().duration(2000).attr('y', y(data[2017].months[12].value)) 
         svg.select('text.y-2018').transition().duration(2000).attr('y', y(data[2018].months[12].value)) 
         svg.select('text.y-2019').transition().duration(2000).attr('y', y(data[2019].months[12].value)) 
 
 
-    
         svg.select('path.y-p-2020')
                 .style('opacity', 1)
                 .attr("d", 
