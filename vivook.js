@@ -1,10 +1,8 @@
-
-
 init();
 
-
 function init() {
-    let vals = {}
+    let vals = {};
+    
     vals[2017] = [
         613071,
         450955,
@@ -55,32 +53,27 @@ function init() {
     ]
 
     let data = {};
-    
+
     ['2017', '2018', '2019'].forEach( (r,idx) => {
         let sumData = 0;
 
-        console.log( 'num:', data[ Number(r) - 1] );
         data[r] = {
-            nombre : r,
+            nombre: r,
             fill: d3.schemeCategory10[idx],
-            months : months.map((month, idx) => {
-                sumData +=  vals[r][idx];
-                return {
-                    month, 
-                    v: vals[r][idx], 
-                    value:sumData, 
-                    vAnt : r == '2017' ? 0 : data[ Number(r) - 1].months[idx+1].value
-                }
+            months: months.map((month, idx) => {
+                sumData += vals[r][idx];
+                let vAnt = r == '2017' ? 0 : data[ Number(r) - 1].months[idx+1].value;
+                return {month, vAnt, v:vals[r][idx], value:sumData}
             })
-        }
+        };
 
-        data[r].months.unshift({month:0, v:0,value:0, vAnt:0})
+        data[r].months.unshift({month:0, v:0, value:0, vAnt:0})
         data[r].maxVal = data[r].months[12].value
     });
 
-
-    const dCrec2019 = creceData(data[2018], 1.296568, d3.schemeCategory10[6] )
+    const dCrec2019 = creceData(data[2018], 1.296568, d3.schemeCategory10[6])
     const dCrec2020 = creceData(data[2019], 1.25, d3.schemeCategory10[8])
+
 
     function creceData(d, pCrecimiento, fill) {
         let dddd=  {
@@ -91,7 +84,6 @@ function init() {
                 return {month:d.month, vAnt:d.value, value:d.value*pCrecimiento}
             })
         }
-
         dddd.maxVal = dddd.months[12].value
         return dddd;
     }
@@ -115,7 +107,6 @@ function init() {
 
     
     d3.range(0,13).forEach((d) => {
-        //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
         gGrid.append('line')
             .attr('x1',x(d))
             .attr('x2',x(d))
@@ -126,7 +117,6 @@ function init() {
     });
 
     d3.range(0,15).forEach((d) => {
-        //<line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  />
         gGrid.append('line')
             .attr('class','yline-' + d)
             .attr('x1',20)
@@ -135,7 +125,7 @@ function init() {
             .attr('y2',y(d * 1000000))
             .attr('stroke', '#AAA')
             .attr('stroke-width', '1')
-    })
+    });
 
     function start(){
         [dCrec2019, dCrec2020, data[2019], data[2018], data[2017]].forEach( (d1,idx) => {
@@ -165,34 +155,15 @@ function init() {
     } 
 
     function aniosAnteriores() {
-
         svg.select('path.y-2017')
             .transition().duration(2000)
-            .attr("d", 
-                    d3.area()
-                        .x((l,n) => x(n))
-                        .y0(d => y(d.vAnt))
-                        .y1(d => y(d.value))
-                )
-            .on('end', r =>{
-                svg.select('text.y-2017')
-                .attr('opacity', 1)
-            })
+            .attr("d", d3.area().x((l,n) => x(n)).y0(d => y(d.vAnt)).y1(d => y(d.value)) )
+            .on('end', r => svg.select('text.y-2017').attr('opacity', 1) )
            
-
-
         svg.select('path.y-2018')
                 .transition().duration(2000).delay(2500)
-                .attr("d", 
-                        d3.area()
-                            .x((l,n) => x(n))
-                            .y0(d => y(d.vAnt))
-                            .y1(d => y(d.value))
-                )
-                .on('end', r =>{
-                    svg.select('text.y-2018')
-                    .attr('opacity', 1)
-                })
+                .attr("d",  d3.area().x((l,n) => x(n)).y0(d => y(d.vAnt)).y1(d => y(d.value)) )
+                .on('end', r => svg.select('text.y-2018').attr('opacity', 1) )
     }
 
 
@@ -219,13 +190,7 @@ function init() {
             );
 
         svg.select('path.y-2019')
-            //.transition().duration(2000)
-            .attr("d", 
-                d3.area()
-                    .x((l,n) => x(n))
-                    .y0(d => y(d.vAnt))
-                    .y1(d => y(d.vAnt))
-            );
+            .attr("d", d3.area().x((l,n) => x(n)).y0(d => y(d.vAnt)).y1(d => y(d.vAnt)) );
 
             d3.range(0,15).forEach((d) => {
                 gGrid.select('line' +'.yline-' + d)
@@ -258,7 +223,7 @@ function init() {
                             .y0(d => y(d.vAnt))
                             .y1(d => y(d.value))
                     )
-                .on('end', r=> {
+                .on('end', r => {
                     svg.select('text.y-p-2019').attr('y', y(max2019)).attr('opacity', 1)
                 })
             })
@@ -338,9 +303,7 @@ function init() {
 
         svg.select('path.y-p-2020')
                 .style('opacity', 0.8)
-                .attr("d", 
-                    d3.area()
-                        .x((l,n) => x(n))
+                .attr("d", d3.area().x((l,n) => x(n))
                         .y0(d => y(d.vAnt))
                         .y1(d => y(d.vAnt))
                 )
@@ -354,8 +317,6 @@ function init() {
                 .on('end', r => {
                     svg.select('text.y-p-2020').attr('y', y(max2020)).attr('opacity', 1)
                 })
-
-        
     }
     
     start();
@@ -363,7 +324,5 @@ function init() {
     setTimeout(crecimiento2019, 8000)
     setTimeout(ventas2019, 14000)
     setTimeout(crecimiento2020, 19000)
-    
-
 }
 
