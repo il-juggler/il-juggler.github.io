@@ -58,18 +58,33 @@ function draw () {
         
         let val =  d3.select(evt.target).select('input[type=text]').node().value;
         let mom = CalculoISR(Number(val));
-        console.log(mom)
+       
+        let g = svg.append('g')
+                    .attr('transform', 'translate('.concat(X(mom.cantidad), ' ', Y(100 - mom.tasaCalculada), ')') )
 
-        svg.append('circle')
+        g.append('circle')
             .attr('r',100)
             .attr('opacity', 0)
             .attr('fill','steelblue')
             .attr("stroke", "steelblue")
-            .attr('cx', X(mom.cantidad))
-            .attr('cy', Y(100 - mom.tasaCalculada))
+            .attr('cx', 0)
+            .attr('cy', 0)
             .transition()
                 .attr('r',3)
                 .attr('opacity', 1)
+                .on('end', r => {
+
+                    g.append('circle')
+                        .attr('r',3)
+                        .attr('fill','none')
+                        .attr("stroke", "steelblue")
+                        .attr('cx', 0)
+                        .attr('cy', 0)
+                        .transition()
+                        .ease(d3.easeBackOut)
+                        .attr('r',5)
+
+                })
     })
 
     

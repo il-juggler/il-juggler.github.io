@@ -1,0 +1,32 @@
+{
+    "titulo" : "1. EXPLORACIÓN INICIAL Y CO-PLANEACIÓN",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "tablaPrincipal",
+            "filas" : [
+                {"titulo":"DURACIÓN", "texto": "2 semanas (durante el reclutamiento)"},
+                {"titulo":"CONTACTO PRESENCIAL", "texto": "(1) ¡El primer encuentro!"},
+                {"titulo":"CONTACTO VIRTUAL", "texto": "(1) Alistándonos para iniciar el viaje."},
+                {"titulo":"METAS", "contenido": [
+                       "<strong>1.1</strong> Iniciar la relación de confianza, respeto y seguridad entre el/la joven y la persona gestora.",
+                       "<br>",
+                       "<strong>1.2</strong> Asegurar y motivar la permanencia en el programa."
+                    ] 
+                },
+                {
+                    "titulo":"PRODUCTOS REQUERIDOS",
+                    "texto" : "✓ Protocolo de retención para evitar bajas del programa."
+                },
+                {
+                    "titulo":"HERRAMIENTAS",
+                    "contenido" : [
+                        "✓ Entrevista Motivacional.",
+                        "<br>",
+                        "✓ Contacto virtual para confirmar fecha, hora y lugar de capacitación."
+                    ]
+                }
+            ]
+        }
+    ]
+}
