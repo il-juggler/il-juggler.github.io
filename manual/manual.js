@@ -12,7 +12,7 @@ Manual.view = function(vnode) {
     return m('div.container', [
        m('div.content', [
            m('.columns', [
-                m('.column.is-hidden-mobile', [
+                m('.column.is-hidden-mobile.is-hidden-tablet', [
                     m('div', {'style':'border-left:10px solid #D66B31'}, [
                         ElementosDelMenu.map(el => {
                             let style = {
@@ -30,7 +30,7 @@ Manual.view = function(vnode) {
                         })
                     ])
                 ]),
-                m('.column.is-three-quarters.is-full-mobile', [
+                m('.column.is-three-quarters-desktop.is-full-mobile.is-full-tablet', [
                     vnode.children.map( Manual.displayElement)
                 ])
            ])
