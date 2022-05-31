@@ -60,8 +60,8 @@ Manual.displayElements = function(elementos) {
 var Fase = {}
 Tipos.Fase = Fase;
 Fase.view = function(vnode) {
-    return m('section.elemento.fase.block', [
-        m('h2.is-size-3', {style:{color:'#439798'}}, vnode.attrs.titulo),
+    return m('section.elemento.fase.block', {id:vnode.attrs.id}, [
+        m('h2.is-size-3', {style:{paddingTop:'4rem',color:'#439798'}}, vnode.attrs.titulo),
         Manual.displayElements(vnode.children)
     ])
 }
@@ -133,3 +133,9 @@ TextoClave.view= function(vnode) {
 }
 
 Tipos.ConversacionPresencial = Tipos.PantallaMovil
+
+
+function Toggle(id) {
+    let el = document.querySelector('#'+id)
+    el.classList.toggle('is-active')
+}
