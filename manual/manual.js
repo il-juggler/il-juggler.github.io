@@ -30,6 +30,7 @@ Manual.view = function(vnode) {
                         })
                     ])
                 ]),
+                
                 m('.column.is-three-quarters-desktop.is-full-mobile.is-full-tablet', [
                     vnode.children.map( Manual.displayElement)
                 ])

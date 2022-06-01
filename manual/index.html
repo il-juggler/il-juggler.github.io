@@ -5,8 +5,9 @@
         <script type="text/javascript" src="./manual.js"></script>
         <script type="text/javascript" src="https://unpkg.com/mithril/mithril.js"></script>
         <link rel="stylesheet" href="./bulma/css/bulma.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     </head>
+
     <body>
         <nav class="navbar is-hidden-desktop" style="position:fixed; width:100%; top:0">
             <div class="navbar-brand" style="background-color:#f3f3f3">
@@ -273,9 +274,8 @@
         <div id="manual"></div>
         <script>
             var root = document.querySelector('#manual');
-
             m.mount(root, {
-                view: () => m(Manual, {}, window.contenido) 
+              view: () => m(Manual, {}, window.contenido)
             });
         </script>
    </body>
