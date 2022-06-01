@@ -9,10 +9,10 @@ ElementosDelMenu = [
 ]
 
 Manual.view = function(vnode) {
-    return m('div.container', [
+    return m('div.container-fluid', [
        m('div.content', [
            m('.columns', [
-                m('.column.is-hidden-mobile.is-hidden-tablet', [
+                m('.column.is-hidden-mobile.is-one-quarter', [
                     m('div', {'style':'border-left:10px solid #D66B31'}, [
                         ElementosDelMenu.map(el => {
                             let style = {
@@ -31,8 +31,8 @@ Manual.view = function(vnode) {
                     ])
                 ]),
                 
-                m('.column.is-three-quarters-desktop.is-full-mobile.is-full-tablet', [
-                    vnode.children.map( Manual.displayElement)
+                m('.column.is-full-mobile', [
+                    vnode.children.map(Manual.displayElement)
                 ])
            ])
             
@@ -139,4 +139,9 @@ Tipos.ConversacionPresencial = Tipos.PantallaMovil
 function Toggle(id) {
     let el = document.querySelector('#'+id)
     el.classList.toggle('is-active')
+}
+
+function Portada() {
+    let el = document.querySelector('#navMenubd-example')
+    el.classList.remove('is-active')
 }
