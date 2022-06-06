@@ -1,0 +1,37 @@
+{
+    "titulo" : "III. VISIÓN Y EXPERIENCIA DE LA FUNDACIÓN INTERNACIONAL POR LA JUVENTUD (IYF)",
+    "id":"vision",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "En ese contexto de respeto y protección a los derechos de las personas jóvenes, como parte de los esfuerzos que nacen en la esfera internacional por medio de diversas corporaciones, fundaciones y organismos de la sociedad civil, existen organizaciones sin fines de lucro que trabajan para mejorar sus condiciones de vida en el plano personal, social y económico, y convertirlos en agentes de cambio para la transformación de sus comunidades."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Tal es el caso de la Fundación Internacional por la Juventud (IYF), organismo que desde 1990 ha impactado la vida de 7.7 millones de personas jóvenes en 105 países de 6 continentes, mejorando sus expectativas para una vida saludable y productiva. Con el apoyo de 615 socios que forman parte de una gran red de aliados que traspasa fronteras, la IYF ha puesto al alcance de las y los jóvenes que no han tenido las mismas oportunidades para desarrollar su potencial, una oferta de programas e iniciativas inclusivas e innovadoras en formación y vinculación laboral. Guiados por el deseo que “visualiza un mundo en donde todos los jóvenes están inspirados y equipados para lograr el futuro que desean”, tiene como misión <b>“conectar a los jóvenes con oportunidades para transformar sus vidas”</b>, y trabaja con la premisa de que “las personas jóvenes educadas, con trabajo y comprometidas tienen el poder de solucionar los problemas más difíciles del mundo”."
+        },
+
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "En mérito de lo anterior, las metodologías empleadas en sus programas fortalecen las habilidades para la vida, brindan capacitación técnica, y desarrollan competencias para la empleabilidad, en función de las características de los mercados en crecimiento y de las particularidades del contexto local en el que se desenvuelven. <b>En México, la IYF comenzó sus operaciones en 2012</b> y, a la fecha, se han implementado cerca de 27 iniciativas en diferentes ciudades del país, de las cuales actualmente se encuentran vigentes 8: Conectadas, Equip Youth, Certificado profesional de soporte de TI de Google: México, Jóvenes con Entrega, Networking México, Pasaporte al Éxito, Caminos hacia el éxito: Creando oportunidades para que las mujeres jóvenes prosperen en Guadalajara México y, Habilidades para la Prosperidad México."
+        },
+
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido":"Sin lugar a duda existen iniciativas que, aunque ya cumplieron su ciclo en el territorio nacional, han dejado importantes enseñanzas para mejorar la empleabilidad y los servicios de colocación laboral de jóvenes históricamente desatendidos, de bajos ingresos, en condiciones de riesgo o que viven en contextos violentos; en algunos casos incluso estimulando emprendimientos propios. Nos referimos a programas como Juventud: Trabajo México (2010-2014), Órale (2015-2017) y, En Trayecto (2020-2022). En ese sentido, sus principales factores de éxito pueden encontrarse en el <b>uso de una metodología aplicada por jóvenes para jóvenes</b>, y en la utilización del <b>enfoque de Desarrollo Positivo de la Juventud (PYD).</b>"
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido":"En el primer caso, se trata de intervenciones en donde las personas jóvenes participantes reciben la formación, el acompañamiento personalizado y la consejería que necesitan para desarrollar su proyecto de vida, por parte de otros jóvenes que, dada la cercanía generacional facilitan la empatía y afinidad de intereses. Al mismo tiempo, representan las figuras inspiracionales y de éxito que los motivan a alcanzar sus propias metas. Compuesta por <b>elementos formativos y de intermediación laboral</b> que tienen como objetivo vincularlos a empleos formales, pasantías, autoempleo, capacitación técnica o, en su caso, incorporarlos de nueva cuenta a la educación formal; la iniciativa Órale se constituye como una de las mejores prácticas que ha puesto en marcha la Fundación."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Por su parte, utilizar el enfoque PYD es determinante, ya que parte del reconocimiento de que todas las personas jóvenes tienen fortalezas para aprovechar (activos y agencia), en lugar de déficits por resolver, y que éstas deben ponerse al servicio de su comunidad. Da importancia a los contextos ecológicos y sistémicos, en donde las personas jóvenes interactúan en entornos que son dinámicos, y que por lo tanto incluyen sistemas de apoyo entre sus pares, redes sociales, familiares, en la escuela y la comunidad; buscando equiparlos con las debidas oportunidades para que se desarrollen, primero de forma individual y, posteriormente, como agentes de cambio en sus comunidades. Éste no es un proceso lineal, es siempre una constante de ida y vuelta entre lo que el joven tiene y desarrolla en función de su contexto y de las oportunidades que reciba, de ahí la importancia de facilitarle dichas oportunidades y exponerlo a nuevas experiencias de crecimiento que amplíen sus horizontes."
+        }
+
+        
+        
+        
+    ]
+}

@@ -2,12 +2,20 @@
     "titulo" : "1.2 ALISTÁNDONOS PARA INICIAR EL VIAJE",
     "tipo": "Actividad",
     "contenido" : [
-        {"tipo":"ParrafoTitulado", "titulo":"¿CUÁL ES EL OBJETIVO?","texto": "Mantener un estímulo para dar inicio a las actividades del Programa y apoyar cualquier situación que requiera seguimiento con el fin de facilitar la participación de la/del joven."},
-        {"tipo":"ParrafoTitulado","titulo":"¿CÓMO?", "texto":"Contacto virtual."},
-        {"tipo":"ParrafoTitulado", "titulo":"¿CUÁNDO?", "texto":"Dos o tres días antes del inicio del taller."},
-        {"tipo":"ParrafoTitulado", "titulo":"MATERIALES NECESARIOS:","texto":"− Mensaje de texto."},
-        {"tipo":"ParrafoTitulado", "titulo":"INDICACIONES PARA EL/LA GESTOR(A):","texto":"Se recomienda llevar un registro de confirmaciones de las/los jóvenes y pendientes en los que se puede apoyarles para asegurar su participación. Enviar mensaje para recordar el inicio de actividades e identificar cualquier situación que requiera atención."},
-        {"tipo":"ParrafoTitulado", "titulo":"CONSEJOS PARA EL/LA GESTOR(A):","texto":"Este es un momento inicial muy importante para asegurar la participación del/de la joven que requiere una respuesta oportuna ante cualquier inquietud o duda. Se puede compartir un video, poema, canción o elemento relacionado con algún gusto expresado en el primer encuentro."},
+        {
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo",
+            "parrafoObjetivo" : true,
+            "texto": "Mantener un estímulo para dar inicio a las actividades del Programa y apoyar cualquier situación que requiera seguimiento con el fin de facilitar la participación de la/del joven."
+        },
+        
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto virtual.",
+            "Cuando" : "Dos o tres días antes del inicio del taller.",
+            "Materiales": "− Mensaje de texto."
+        },
+
         {
             "tipo" : "PantallaMovil",
             "contenido" : [
@@ -19,6 +27,12 @@
                 "<br>",
                 "Nos vemos pronto para comenzar este espacio de jóvenes 🙋🏻‍♀️🙋🏻‍♂️"
             ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Consejos para la persona gestora:",
+            "texto":"Este es un momento inicial muy importante para asegurar la participación del/de la joven que requiere una respuesta oportuna ante cualquier inquietud o duda. Se puede compartir un video, poema, canción o elemento relacionado con algún gusto expresado en el primer encuentro."
         }
     ]
 }

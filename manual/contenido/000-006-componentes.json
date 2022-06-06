@@ -1,0 +1,20 @@
+{
+    "titulo" : "Del por qué y para qué de los 3 componentes del Modelo",
+    "id":"componentes-del-modelo",
+    "tipo":"Fase",
+    "contenido" : [
+        "<img>",
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Los componentes representan las <b>áreas de intervención que el Modelo</b>se plantea abordar a través de esta estrategia de gestión de casos que tiene como propósito brindar un acompañamiento cercano y constante durante el periodo que se establezca para <b>emprender un itinerario de inclusión social, educativa y laboral de las personas jóvenes de oportunidad.</b>"
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Los componentes del modelo buscan integrar los elementos de atención o intervención necesarios para lograr un ejercicio transformacional de la persona joven. Estos van desde el ámbito personal, pasando por las dimensiones de interacción más próximas, los espacios de interacción con agentes encargados de brindar los bienes y servicios necesarios para su desarrollo y que garanticen el ejercicio de sus derechos."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Se espera que la <b>correspondencia entre componentes y actividades con enfoque PYD produzca resultados concretos de corto-mediano plazo</b> que se traduzcan en: Jóvenes de oportunidad con mayores herramientas para superar desventajas sociales y propiciar su inclusión social (Componente 1), Jóvenes de oportunidad que ejercen sus derechos y desarrollan su agencia en favor de su comunidad (Componente 2) y, Jóvenes de oportunidad con trayectorias laborales y/o educativas de superación y éxito (Componente 3)."
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "titulo" : "Glosario",
+    "id":"Glosario",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>ACTIVOS DE LAS/LOS JÓVENES:</strong> Se refiere a la serie de recursos, habilidades y competencias que poseen las personas jóvenes."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>AGENCIA DE LAS/LOS JÓVENES:</strong> Capacidad de las personas jóvenes para gestionar los recursos disponibles que les permitan alcanzar las metas que más valoran."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>CENTRO PARA JÓVENES:</strong> Espacio físico destinado a la capacitación y acompañamiento de la gestoría ubicado en el área de intervención."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>CONTACTO PRESENCIAL.</strong>  Encuentro con duración entre 30 y 60 minutos en el centro para jóvenes de la Fundación Internacional de la Juventud (IYF por sus siglas en inglés) en donde se cursa el taller formativo."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>CONTACTO VIRTUAL.</strong>  Comunicación a través de llamadas telefónicas, correo electrónico, videollamada por Zoom o Teams, o bien, mensaje de texto o audio por WhatsApp."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>ENFOQUE DE DESARROLLO JUVENIL POSITIVO (POSITIVE YOUTH DEVELOPMENT -PYD-).</strong> Se trata de una filosofía y aproximación que pone en el centro los activos y las fortalezas que las/los jóvenes poseen para el logro de un futuro positivo y en donde se promueve el desarrollo de competencias, habilidades y destrezas para su empoderamiento y logro de su máximo potencial."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>ENTREVISTA MOTIVACIONAL:</strong> Es una estrategia de comunicación que se centra en una persona para ayudarle a comprometerse en algo, mediante la exploración de los motivos personales de cambio y/o la resolución de ambivalencia. Se basa en la colaboración entre el entrevistado y el entrevistador, y sirve para motivar a las personas a realizar los cambios que se proponen hacer y aún no han conseguido, para pasar del “me gustaría hacer…” a “lo haré”. Es una técnica fácil de aprender cuya intervención dura de entre 7 a 15 minutos."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>FIGURAS DE MENTORÍA:</strong> Personas que actúan como guías o consejeros que a través de su experiencia y/o conocimiento ayudan a otras personas a lograr los objetivos de sus planes o proyectos, poniendo en marcha acciones concretas."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>GESTOR(A).</strong> Persona joven responsable de dar un seguimiento individualizado a cada una(o) de las/los jóvenes a través de una relación de confianza y empatía que acompañe y promueva el autorreconocimiento de sus capacidades de agencia."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>HABILIDADES PARA LA VIDA:</strong> También llamadas competencias psicosociales son las habilidades que posee o desarrolla una persona para enfrentarse con éxito a las exigencias y desafíos de la vida cotidiana."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>INCLUSIÓN SOCIAL:</strong> Proceso para mejorar la habilidad, oportunidad y dignidad de las personas que se encuentran en desventaja debido a su identidad, para que participen en la sociedad."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>JÓVENES DE OPORTUNIDAD:</strong> Mujeres y hombres entre 15 y 24 años de edad que pertenecen a comunidades indígenas y habitan en la Ciudad de México."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>MAPA DE VIDA:</strong> Es una herramienta gráfica que ayuda a visualizar y tener presentes los objetivos que se desean alcanzar en diversos aspectos de la vida. Al ser un elemento gráfico incentiva el aprendizaje y aporta claridad de pensamiento."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>PLAN DE VIDA:</strong> Es el conjunto de ideas, pensamientos e imágenes referentes a la construcción de metas personales y/o profesionales que el joven se propone lograr en su vida en un periodo de tiempo determinado. Implica responder a la pregunta ¿qué me veo haciendo en cierta cantidad de meses o años? Como herramienta se emplea el término MAPA DE VIAJE para que sea consistente con la metáfora que recorre todos los procesos del modelo."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>RECLUTAMIENTO:</strong> Proceso por el cual el equipo operativo difunde el programa en la comunidad, invitando a participar a las personas que cumplan con el perfil de los Jóvenes de Oportunidad para, posteriormente, pasar a un proceso de selección que asegure que se está incorporando a la población objetivo del programa."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>REDES DE APOYO:</strong> Conjunto de relaciones que integran a una persona con su entorno social, o con personas con las que establecen vínculos solidarios y de comunicación para resolver necesidades específicas. Algunos tipos de apoyos que estas redes brindan incluyen los emocionales, instrumentales, cognitivos o materiales."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>PREGUNTAS PODEROSAS:</strong> Son aquellas que provocan reflexiones profundas, están orientadas hacia el futuro en un sentido positivo y buscan la acción vinculada a metas."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>SESIÓN 1:1.</strong> Reunión uno a uno entre el/la joven y la persona gestora"
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>TECNOLOGÍAS DE LA INFORMACIÓN (TI):</strong> Conjunto de tecnologías desarrolladas para que la comunicación sea más eficiente. Utiliza recursos informáticos, telecomunicaciones, y tecnologías audiovisuales que permiten tratar y difundir la información a través de diversos canales de comunicación; su elemento más poderoso es el internet."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>ZONA DE CONFORT:</strong> Es un estado psicológico que representa un espacio seguro en donde una persona no se arriesga, pero tampoco crece, y en donde se experimenta un bienestar que no es producto de la satisfacción o el orgullo personal, sino de la ausencia de emociones negativas.  Por lo tanto, salir de la zona de confort supone aventurarse a la vida y asumir que, aunque puede haber tropiezos y equivocaciones existe una expectativa de crecimiento y evolución positiva."
+        }
+        
+    ]
+}

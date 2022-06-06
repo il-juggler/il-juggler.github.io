@@ -2,26 +2,38 @@
     "titulo" : "1.1 ¡EL PRIMER ENCUENTRO!",
     "tipo":"Actividad",
     "contenido" : [
-        { "tipo":"ParrafoTitulado", "titulo":"¿CUÁL ES EL OBJETIVO?", "texto": "Presentación del/de la gestor/a, primeros pasos para generar una relación de confianza y espacio de seguridad para escuchar y brindar el acompañamiento dirigido al logro de las metas fijadas por la/el joven con miras en su futuro positivo. A través de la entrevista motivacional se pretende identificar expectativas, intereses inquietudes y posibles dudas relacionadas directamente con el Programa Jóvenes de Oportunidad."},
-        { "tipo":"ParrafoTitulado", "titulo":"¿CÓMO?", "texto" : "Contacto presencial." },
-        { "tipo":"ParrafoTitulado", "titulo":"¿CUÁNDO?", "texto" : "Después de la etapa de reclutamiento, una vez que han sido seleccionados las y los jóvenes participantes. <br> Considerar dos semanas antes de iniciar el Taller Formativo." },
-        { "tipo":"ParrafoTitulado", "titulo":"MATERIALES NECESARIOS", "texto" : "– Guía de tópicos de entrevista motivacional." },
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Presentación del/de la gestor/a, primeros pasos para generar una relación de confianza y espacio de seguridad para escuchar y brindar el acompañamiento dirigido al logro de las metas fijadas por la/el joven con miras en su futuro positivo. A través de la entrevista motivacional se pretende identificar expectativas, intereses inquietudes y posibles dudas relacionadas directamente con el Programa Jóvenes de Oportunidad."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Después de la etapa de reclutamiento, una vez que han sido seleccionados las y los jóvenes participantes. Considerar dos semanas antes de iniciar el Taller Formativo.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "40 a 60 minutos.",
+            "Materiales": "– Guía de tópicos de entrevista motivacional."
+        },
+
         { 
             "tipo" : "ParrafoTitulado", 
-            "titulo" : "CONSEJOS PARA EL/LA GESTOR(A):",
+            "titulo" : "Indicaciones para la persona gestora",
             "contenido" : [
                 {
                     "tipo" : "Lista",
                     "elementos" : [
-                        "Es muy importante que este encuentro sea una conversación totalmente informal, relajada, en la que las preguntas sólo sean una guía, pero que fluya de manera natural y siempre escuchando con atención a lo que la/el joven quiera compartir contigo.",
-                        "La entrevista motivacional está orientada en conocer las expectativas y generar entusiasmo en cada joven sobre su participación del Programa Jóvenes de Oportunidad.",
-                        "Procura que la reunión no pase de 60 minutos.",
-                        "En caso de que WhatsApp no sea un medio disponible para el/la joven, puedes preguntarle qué otro medio le gustaría que usen como mensaje de texto, llamada telefónica o alguna otra red de comunicación.",
-                        "Es importante que después de este primer encuentro puedas registrar los posibles riesgos que puedan representar dificultades para que el/la joven completen su participación en el Programa. Estos datos servirán para establecer estrategias de acompañamiento que reduzcan al máximo estos riesgos."
+                        "Saluda, preséntate y da la bienvenida al joven o a la joven.",
+                        "Con base en la “Guía de tópicos de entrevista motivacional” lleva a cabo el primer encuentro de una forma relajada con una conversación fluida y natural.",
+                        "Explica brevemente cuál es tu rol en el programa y la forma en que van a trabajar.",
+                        "Indaga sobre las metas y dificultades que tiene o pueda tener para su participación en el programa. Brinda toda la información para resolver cualquier duda que le surja.",
+                        "En el “Protocolo de Retención” [VER ANEXO] registra los posibles riesgos que puedan representar dificultades para que el o la joven completen su participación en el Programa."
                     ]
                 }
             ]
         },
+        
         {
             "tipo" : "ConversacionPresencial",
             "contenido" : [
@@ -40,6 +52,22 @@
                        "¿Hay algo que tengas pendiente de resolver para tu ingreso al Programa o para asistir al taller?",
                        "¿Has pensado en algo que consideres que pueda ser difícil para participar en el Programa?,¿algo en lo que pueda apoyar?",
                        "Cualquier duda, puedes escribirme por WhatsApp y estaremos en comunicación."
+                    ]
+                }
+            ]
+        },
+        { 
+            "tipo" : "Consejos", 
+            "titulo" : "Consejos para la persona gestora:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Es muy importante que este encuentro sea una conversación totalmente informal, relajada, en la que las preguntas sólo sean una guía, pero que fluya de manera natural y siempre escuchando con atención a lo que la/el joven quiera compartir contigo.",
+                        "La entrevista motivacional está orientada en conocer las expectativas y generar entusiasmo en cada joven sobre su participación del Programa Jóvenes de Oportunidad.",
+                        "Procura que la reunión no pase de 60 minutos.",
+                        "En caso de que WhatsApp no sea un medio disponible para el/la joven, puedes preguntarle qué otro medio le gustaría que usen como mensaje de texto, llamada telefónica o alguna otra red de comunicación.",
+                        "Es importante que después de este primer encuentro puedas registrar los posibles riesgos que puedan representar dificultades para que el/la joven completen su participación en el Programa. Estos datos servirán para establecer estrategias de acompañamiento que reduzcan al máximo estos riesgos."
                     ]
                 }
             ]

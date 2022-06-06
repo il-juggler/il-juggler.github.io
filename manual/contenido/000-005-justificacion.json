@@ -1,0 +1,45 @@
+{
+    "titulo" : "IV. JUSTIFICACIÓN DEL MODELO",
+    "id":"justificacion",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Como parte de la actualización de su plan estratégico, la IYF se planteó como meta que para 2022 las personas jóvenes 1) “ejerzan un mayor protagonismo”, 2) “tengan acceso a más y mejores oportunidades económicas y que” 3) “los sistemas sean más inclusivos y receptivos a la juventud”. Para fortalecer su protagonismo es condición indispensable mantenerlos constantemente estimulados para que asuman y sostengan el liderazgo de sus propias decisiones, propiciando que sean ellas y ellos quienes dirijan su propio proceso de cambio y, en esa medida, tengan posibilidades reales de influir en los sistemas. Esa influencia se propicia al usar estrategias colaborativas que los ayuden a empoderarse para impulsarlos a realizar dichos cambios."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Un mayor y mejor acceso a oportunidades económicas está intrínsecamente relacionado con el desarrollo de competencias técnicas actuales y de adecuados niveles de formación y de capacitación laboral, y que estos sean idóneos para satisfacer la demanda de los mercados de trabajo que están en crecimiento. Estos mercados generalmente se caracterizan por el uso intensivo de tecnologías de la información y de comunicación; por lo tanto, las soluciones digitales para las y los jóvenes es uno de los recursos de los que hace uso la Fundación."
+        },
+
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Considerando que las y los jóvenes objetivo de la Fundación son mayoritariamente personas que históricamente han sido desatendidas, experimentan algún tipo de vulnerabilidad (física, social, económica, institucional, etc.,) y/o factores de exclusión (pobreza, desigualdad, discriminación, etc.), puede entenderse que a lo largo del tiempo han acumulado una cantidad de necesidades personales, familiares y sociales que pone límites a su crecimiento."
+        },
+
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido":"Estas van cuando menos desde el acceso a la alimentación (subsidios para una alimentación nutritiva y variada), pasando por servicios de salud (atención médica primaria, secundaria y terciaria, salud reproductiva, salud mental, control de sustancias, servicios de apoyo, seguro de gastos médicos, etc.), servicios educativos (subsidios al transporte, programas de aprendizaje, guarderías, conexión a internet, etc.), servicios de recreación, hasta servicios de vivienda de tipo básico (agua potable, drenaje, electricidad, recolección de basura), así como características de habitabilidad (espacio, ventilación, iluminación, uso de pesticidas, desarrollo de actividades productivas en la vivienda, etc.)."
+        },
+
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido":"En ese sentido, los sistemas serán más inclusivos y receptivos con las personas jóvenes, en la medida en la que se fortalezcan los sistemas de apoyo social y se acelere la creación de redes de apoyo para que ellas y sus familias accedan a los recursos, apoyos y servicios que les permitan la reproducción de la vida cotidiana; así como también en la medida en la que las personas jóvenes participen de manera informada y responsable en las decisiones que se toman sobre su comunidad, siendo éste un detonante para la inclusión social."
+        },
+
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido":"En línea con esos tres objetivos estratégicos, y de cara a las exigencias planteadas, surge la necesidad de desarrollar y posteriormente implementar iniciativas basadas en la gestión de casos, por ser una metodología que se centra en la responsabilidad compartida entre la persona gestora del caso y la persona que hace parte de la población de interés o población objetivo. En este caso, se empleará para coordinar la generación de condiciones que permitan el desarrollo juvenil positivo, atendiendo sus necesidades más inmediatas de forma integral y sostenida. De manera que, a la par que se potenciará el protagonismo juvenil y se facilitarán las oportunidades económicas, también se emplearán estrategias de trabajo que de manera comprehensiva atiendan el cúmulo de necesidades que presentan las personas jóvenes, respetando su identidad, cultura y valores. Al respecto, la IYF entiende la gestión de casos como:"
+        },
+
+        {
+            "tipo": "CitaFondoAzul",
+            "contenido":"“Un proceso colaborativo entre la persona gestora de casos y la persona joven para analizar, planear, facilitar, coordinar, evaluar y mediar opciones y servicios para habilitar un plan de corto y mediano plazo de superación. La persona joven participante cogenera con su gestor de casos, una orientación hacia el futuro positivo, da los primeros pasos para alcanzar una visión positiva del futuro, y le apoya en la remoción de impedimentos al alcanzarla”."
+        }
+
+
+        
+        
+        
+    ]
+}

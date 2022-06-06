@@ -6,20 +6,22 @@
         {
             "tipo": "tablaPrincipal",
             "filas" : [
-                {"titulo":"DURACIÓN", "texto": "2 semanas (durante el reclutamiento)"},
-                {"titulo":"CONTACTO PRESENCIAL", "texto": "(1) ¡El primer encuentro!"},
-                {"titulo":"CONTACTO VIRTUAL", "texto": "(1) Alistándonos para iniciar el viaje."},
-                {"titulo":"METAS", "contenido": [
+                {"imagen":"./naranjas/duracion.png","titulo":"DURACIÓN", "texto": "2 semanas (durante el reclutamiento)"},
+                {"imagen":"./naranjas/presencial.png","titulo":"CONTACTO PRESENCIAL", "texto": "(1) ¡El primer encuentro!"},
+                {"imagen":"./naranjas/virtual.png","titulo":"CONTACTO VIRTUAL", "texto": "(1) Alistándonos para iniciar el viaje."},
+                {"imagen":"./naranjas/metas.png","titulo":"METAS", "contenido": [
                        "<strong>1.1</strong> Iniciar la relación de confianza, respeto y seguridad entre el/la joven y la persona gestora.",
                        "<br>",
                        "<strong>1.2</strong> Asegurar y motivar la permanencia en el programa."
                     ] 
                 },
                 {
+                    "imagen":"./naranjas/productos-requeridos.png",
                     "titulo":"PRODUCTOS REQUERIDOS",
                     "texto" : "✓ Protocolo de retención para evitar bajas del programa."
                 },
                 {
+                    "imagen":"./naranjas/herramientas.png",
                     "titulo":"HERRAMIENTAS",
                     "contenido" : [
                         "✓ Entrevista Motivacional.",

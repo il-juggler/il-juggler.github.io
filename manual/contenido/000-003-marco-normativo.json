@@ -1,0 +1,44 @@
+{
+    "titulo" : "II. MARCO NORMATIVO: UNA MIRADA A LAS JUVENTUDES DESDE EL ENFOQUE DE DERECHOS",
+    "id":"introduccion-general",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "En el ámbito internacional de políticas e iniciativas a favor de las juventudes del mundo, se han articulado distintos instrumentos jurídicos como Tratados, Convenciones, Declaraciones y Pactos, que toman como referencia la Declaración Universal de los Derechos Humanos (DUDH), proclamada por las Naciones Unidas (ONU) en 1948. Estas acciones encuentran fundamento en la premisa de que, para avanzar hacia el objetivo de que las juventudes logren su pleno desarrollo, es necesario comenzar a reconocer, ampliar y hacer más específicos sus derechos, retomando los Derechos Humanos que comparten y hermanan a todas las naciones."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Con ese propósito, en el año 2016 el Organismo Internacional de Juventud para Iberoamérica (OIJ), del cual México junto con otros 18 países de la región forma parte, encabezó los trabajos de la <b>Convención Iberoamericana de Derechos de los Jóvenes</b>, extendiendo los derechos civiles, sociales, económicos, políticos y culturales para las personas jóvenes, en el contexto de los desafíos del mundo contemporáneo en el que realizan su transición hacia una vida como jóvenes adultos."
+        },
+
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "Son muchas las áreas de interés en materia de Derechos Humanos para la juventud; sin pretender agotarlas éstas van desde el derecho a la protección de la identidad, hasta el derecho a la salud, a la educación, a la educación sexual, al trabajo, a las tecnologías de la información y comunicación, a la vivienda, y al desarrollo social, económico, político y cultural. <b>En materia educativa</b> no se limita al derecho a recibir educación gratuita y obligatoria a nivel básico, ni al fomento de la educación superior, sino que también insta para que sea <b>“integral, continua, pertinente y de calidad”</b> de forma que:"
+        },
+        {
+            "tipo" : "CitaFondoAzul", 
+            "contenido" : [
+                "“La educación fomentará la práctica de valores, las artes, las ciencias, y la técnica en la transmisión de la enseñanza, la interculturalidad, el respeto a las culturas étnicas y el acceso generalizado a las nuevas tecnologías […] reconociendo sistemas de aprendizajes escolarizados, no escolarizados e informales, […] promoviendo la adopción de medidas que faciliten la movilidad académica y estudiantil entre los jóvenes”"
+            ]
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" :"Por su parte, además del reconocimiento explícito a su Derecho al trabajo, se formuló el <b>Derecho a las condiciones de trabajo, y el Derecho a la formación profesional.</b> En el primer caso para implementar medidas especiales para personas jóvenes desocupadas y mujeres jóvenes trabajadoras menores de edad, teniendo en común un entorno de protección social. Mientras que la formación profesional formal y no formal busca promover experiencias de primer empleo y de capacitación laboral desde una perspectiva no discriminatoria en su acceso, compartiendo el carácter continuo, pertinente y de calidad de la educación, dirigido hacia la inserción laboral."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" :"En el plano nacional, la <b>Ley del Instituto Mexicano de la Juventud (IMJUVE)</b>, cuya última reforma se realizó en 2015, es el <b>ordenamiento jurídico de mayor alcance en el país para coordinar las políticas públicas en materia de Juventud.</b> Dentro de las distintas realidades juveniles se admite que existen ciertos grupos de jóvenes que, dadas las estructuras del sistema económico, enfrentan mayores dificultades para desarrollarse de manera plena, colocándolos en una situación de desventaja o vulnerabilidad con respecto a los demás. Por esa causa, la Ley pone un énfasis muy especial en la <b>atención de personas jóvenes indígenas,</b> en cuanto a sus condiciones de salud, educación, capacitación productiva, esparcimiento, participación, así como su reconocimiento cultural y, con ese propósito plantea que el organismo gubernamental realice lo siguiente:"
+        },
+        {
+            "tipo" : "CitaFondoAzul", 
+            "contenido" : [
+                "“Proponer al Ejecutivo Federal programas especiales orientados a mejorar las condiciones de salud y educación de los jóvenes indígenas, así como los espacios para la convivencia y recreación […] garantizar la participación de los jóvenes indígenas en el diseño y operación de las políticas de desarrollo y en su caso incorporar a la planeación nacional sus recomendaciones propuestas, […] promover y ejecutar acciones para el reconocimiento público y difusión de las actividades sobresalientes de los jóvenes mexicanos, en especial aquellas que reconozcan y fomenten la herencia cultural de los pueblos y comunidades indígenas […] y proponer programas especiales de becas para la conclusión de la educación básica, capacitación productiva y educación media superior y superior de los estudiantes indígenas”."
+            ]
+        },
+        {
+            "tipo":"ParrafoTitulado",
+           "contenido" : "Finalmente, en lo que se refiere al ámbito estatal, la <b>Ley los Derechos de las Personas Jóvenes en la Ciudad de México,</b> aporta contribuciones importantes al prisma de las realidades juveniles, y mecanismos más acotados en la escala geográfica para la protección de sus derechos. Además de reconocer la figura del joven indígena, lo hace con los <b>jóvenes miembros de un pueblo o barrio originario</b>, comprometiéndose a promover y rescatar sus expresiones e intercambios culturales en el territorio de la CDMX. Respecto al Derecho a la educación se plantea financiar programas que los reintegren a los sistemas educativos, y becas para la permanencia escolar de jóvenes que son madres o padres. En tanto, para el Derecho al trabajo se establecen incentivos a fin de estimular su capacidad emprendedora para desarrollar empresas competitivas creadas por jóvenes y, con ese fin, se ofrecen apoyos para proyectos en áreas específicas como medio ambiente, recursos hídricos, energías renovables, tecnologías, empleo para jóvenes y proyectos que fomenten el arraigo comunitario. Para abonar a esos propósitos se reconoce también su derecho a acceder a las tecnologías de la información y programas de internet gratuitos."
+        }
+    ]
+}

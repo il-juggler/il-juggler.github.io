@@ -1,0 +1,35 @@
+{
+    "titulo" : "I. INTRODUCCIÓN GENERAL",
+    "id":"introduccion-general",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "El Manual del Modelo de Gestión de Casos es una <b>herramienta de implementación</b> desarrollada por la International Youth Foundation (IYF) con el propósito de ofrecer una ruta de trabajo para quienes fungen como gestoras dentro del Programa Jóvenes de Oportunidad en México y son responsables del seguimiento cercano y personal con cada una de las personas jóvenes en su trayecto comprendido por un periodo de 26 semanas (seis meses y medio) para alcanzar los objetivos del programa: "
+        },
+        {
+            "tipo" : "CitaFondoAzul", 
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "numeros" : true,
+                    "elementos" : [
+                        "Orientar las acciones de las personas participantes hacia una visión positiva de su futuro.",
+                        "Proveer a las personas jóvenes la orientación, el apoyo, acompañamiento, y la motivación adecuada para acceder a los servicios que necesitan y a los que tienen derecho para hacer frente a los factores de marginación que enfrentan las y los jóvenes oportunidad.",
+                        "Conectar a las personas jóvenes egresadas del programa con oportunidades de trabajo formal, oportunidades de autoempleo/emprendimiento, prácticas profesionales o educación y formación continuas.",
+                        "Desarrollar un \"plan de vida\", trazar un camino claro hacia un futuro positivo y haber dado los primeros pasos en ese camino."
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" :"Para ello, el documento describe sus <b>orientaciones fundamentales</b> a partir de los marcos conceptuales que sirvieron de guía para su construcción con base en los derechos de las personas jóvenes, el enfoque de desarrollo positivo juvenil, la estrategia de intervención a través de la gestoría de casos y la metodología de trabajo de la Fundación que cuenta con evidencia que muestran sus logros a nivel internacional y en México."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" :"Asimismo, se presentan los  <b>tres componentes y cuatro fases del Modelo</b> que configuran su estructura, incluyendo metas y duraciones de cada una de ellas y las actividades contempladas para alcanzar estas metas en el tiempo establecido."
+        }
+        
+    ]
+}
