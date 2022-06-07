@@ -75,7 +75,7 @@ tablaPrincipal.view = function(vnode) {
             m('tbody', [
                 vnode.attrs.filas.map(f => {
                     return m('tr', {style:{borderColor:'#2A4879'}}, [
-                        m('td', {style:{verticalAlign:'middle', style:"width:60px"}},m('img', {src : f.imagen})),
+                        m('td', {style:{verticalAlign:'middle', width:"60px"}},m('img', {src : f.imagen})),
                         m('th', {style: {textAlign:'center', color:'#2A4879', borderColor:'#2A4879',backgroundColor:'#DBDFE9'}}, f.titulo),
                         m('td', {style:{borderColor:'#2A4879'}}, f.contenido ? Manual.displayElements(f.contenido) : f.texto) 
                     ])
