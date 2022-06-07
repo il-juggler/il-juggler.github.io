@@ -172,7 +172,7 @@ TextoClave.view= function(vnode) {
 var Consejos = {}
 Tipos.Consejos = Consejos
 Consejos.view= function(vnode) {
-    return m('div', {style:{margin:'2em', border:'2px solid #588AA3', padding:'2em'}} ,[
+    return m('div', {style:{marginTop:'2em', border:'2px solid #588AA3', padding:'1em'}} ,[
         m('img', {style:'float:right;width:40px',src:'./foco-consejos.png'}),
         m('h5', {style:{color:"#4FADEA"}}, vnode.attrs.titulo),
         Manual.displayElements(vnode.children)
