@@ -10,7 +10,7 @@ ElementosDelMenu = [
 
 Manual.view = function(vnode) {
     return m('div.container-fluid', [
-       m('div.content', [
+        m('div.content', [
            m('.columns', [
                 m('.column.is-hidden-mobile.is-one-quarter', [
                     m('div', {'style':'border-left:10px solid #D66B31'}, [
@@ -30,18 +30,16 @@ Manual.view = function(vnode) {
                         })
                     ])
                 ]),
-                
                 m('.column.is-full-mobile', [
                     vnode.children.map(Manual.displayElement)
                 ])
            ])
-       ])
+        ])
     ])
 }
 
 Manual.displayElement = function(elemento) {
     let el = '';
-
     if(typeof elemento == 'string') return m.trust(elemento);
     if(!elemento.tipo) return m('div.has-text-danger', 'Sin tipo especificado');
 
@@ -75,9 +73,9 @@ tablaPrincipal.view = function(vnode) {
             m('tbody', [
                 vnode.attrs.filas.map(f => {
                     return m('tr', {style:{borderColor:'#2A4879'}}, [
-                        m('td', {style:{verticalAlign:'middle', padding:"5px", width:"60px"}},m('img', {src : f.imagen})),
+                        m('td', {style: {verticalAlign:'middle', padding:"5px", width:"60px"}},m('img', {src : f.imagen})),
                         m('th', {style: {textAlign:'center', color:'#2A4879', borderColor:'#2A4879',backgroundColor:'#DBDFE9'}}, f.titulo),
-                        m('td', {style:{borderColor:'#2A4879'}}, f.contenido ? Manual.displayElements(f.contenido) : f.texto) 
+                        m('td', {style: {borderColor:'#2A4879'}}, f.contenido ? Manual.displayElements(f.contenido) : f.texto) 
                     ])
                 })
             ])
@@ -144,11 +142,11 @@ CitaFondoAzul.view= function(vnode) {
 var Lista = {}
 Tipos.Lista = Lista
 Lista.view = function(vnode) {
-    
     return m(vnode.attrs.numeros ? 'ol' : 'ul', [
         vnode.attrs.elementos.map(element => m('li', Manual.displayElement(element)) )
     ])
 }
+
 
 var PantallaMovil = {}
 Tipos.PantallaMovil = PantallaMovil
@@ -158,6 +156,7 @@ PantallaMovil.view= function(vnode) {
         Manual.displayElements(vnode.children)
     ])
 }
+
 
 
 var TextoClave = {}
