@@ -1,7 +1,5 @@
 window.Manual = {}
 var Tipos = {};
-
-
 var DatosCronograma = [
    {
         fase : "EXPLORACIÓN INICIAL Y CO-PLANEACIÓN",
@@ -45,10 +43,11 @@ var DatosCronograma = [
         ],
         duracion: 16
    }
-]
-var Portada = {}
-Portada.view = function () {
+];
 
+var Portada = {};
+
+Portada.view = function () {
     return m('div#Portada.mt-2.pb-2.mb-2', [
         m(".section.m-4.pt-6.p-4", [
             m('.box', [
@@ -61,19 +60,19 @@ Portada.view = function () {
         ]),
 
         m('.section.has-text-centered', [
+            m('a.is-info.is-outlined.button[href=./Cronograma del Modelo de Consejería.docx]', 'DESCARGAR CRONOGRAMA', m('i.icofont-download')),
+            m('br'),
+            m('br'),
+
             m.trust(`
-                <a href="./Cronograma del Modelo de Consejería.docx" class="button is-info is-outlined"> DESCARGAR CRONOGRAMA<i class="icofont-download"></i></a>
-                <br>
-                <br>
+            
                 <a href="./Libreta_de_actividades_JuventudES_08 agosto_2022.pdf" class="button is-info is-outlined">DESCARGAR LIBRETA DE ACTIVIDADES <i class="icofont-download"></i></a>
                 <br>
                 <br>
                 <a href="./Materiales de Consejería (para impresión) JuventudES_13 julio 2022 (2).pdf" class="button is-info is-outlined">DESCARGAR MANUAL PDF<i class="icofont-download"></i></a>
                 <br>
                 <br>
-            `),
-
-            
+            `)
         ])
     ])  
 }
@@ -192,7 +191,7 @@ ElementosDelMenu = [
 ]
 
 Manual.view = function(vnode) {
-    return m('div.container-fluid', [
+    return m('div.container', [
         m('div.content', [
            m('.columns', [
                 m('.column.is-hidden-mobile.is-one-quarter', [
@@ -209,23 +208,22 @@ Manual.view = function(vnode) {
                                 'width' : '120px',
                                 'color' : '#fbfbfb',
                                 'display' :'block'
-                            }
+                            };
+
                             return m('div', [
                                 m('a', {style:style, href:el.href}, el.texto)
                             ])
                          })
                     ])
                 ]),
+
                 m('.column.is-full-mobile.is-three-quarters-tablet', [
                     m(Portada),
                     Cronograma.section == false ? Cronograma.Boton() : null,
                     Cronograma.show && Cronograma.section == false ? m(Cronograma) : '',
                     Cronograma.show && Cronograma.section == false ?  Cronograma.Boton() : '',
-
                     Cronograma.show && Cronograma.section != false ?  Cronograma.BotonVolver() : '',
-                    vnode.children.map(d => {
-                        return Manual.displayFase(d, Cronograma.show, Cronograma.section)
-                    }),
+                    vnode.children.map(d =>  Manual.displayFase(d, Cronograma.show, Cronograma.section)),
                     Cronograma.show && Cronograma.section != false ?  Cronograma.BotonVolver() : '',
                 ])
            ])
@@ -387,7 +385,7 @@ TextoClave.view= function(vnode) {
 var Consejos = {}
 Tipos.Consejos = Consejos
 Consejos.view = function(vnode) {
-    m('div', {style:{marginTop:'2em', border:'2px solid #588AA3', padding:'1em'}} ,[
+    return m('div', {style:{marginTop:'2em', border:'2px solid #588AA3', padding:'1em'}} ,[
         m('img', {style:'float:right;width:40px',src:'./foco-consejos.png'}),
         vnode.attrs.titulo ?  m('h5', {style:{color:"#4FADEA"}}, vnode.attrs.titulo) : '',
         Manual.displayElements(vnode.children)
