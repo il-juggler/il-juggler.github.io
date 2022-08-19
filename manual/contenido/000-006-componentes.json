@@ -3,7 +3,7 @@
     "id":"componentes-del-modelo",
     "tipo":"Fase",
     "contenido" : [
-        "<img>",
+        "<img src='./componentes-delmodelo.png'>",
         {
             "tipo": "ParrafoTitulado",
             "contenido" : "Los componentes representan las <b>áreas de intervención que el Modelo</b>se plantea abordar a través de esta estrategia de gestión de casos que tiene como propósito brindar un acompañamiento cercano y constante durante el periodo que se establezca para <b>emprender un itinerario de inclusión social, educativa y laboral de las personas jóvenes de oportunidad.</b>"

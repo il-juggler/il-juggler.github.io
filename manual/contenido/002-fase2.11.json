@@ -1,0 +1,114 @@
+{
+    "titulo" : "2.1.1 MI ESTACIÓN DE INICIO ¿DÓNDE ESTOY?",
+    "tipo":"Actividad",
+    "vcrono" : 3,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Realizar una descripción de la estación de inicio del viaje. La finalidad de desarrollarla es tener elementos sobre como la persona joven visualiza el estado actual de su contexto, para identificar fortalezas y amenazas, así como factores protectores y de riesgo, a partir de su interpretación del contexto donde se desarrolla."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Durante la primera semana de la etapa 2.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "20 minutos.",
+            "Materiales": [
+                "– Formato 1 de la libreta de actividades “Mi estación de inicio ¿Dónde estoy?. <br>",
+                "– Colores, pluma, lápiz."
+            ]
+        },
+
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Utilizando la actividad 1 “Mi estación de inicio, ¿dónde estoy?” pide a la joven o al joven que describa verbalmente el estado de su estación de inicio para que visualice dónde, cómo y con quién inicia su viaje.",
+                        "Pídele que piense a cerca de sí mismo con las preguntas plasmadas en la actividad: “¿Dónde estoy?”, “¿Qué estoy haciendo?”, “¿Con quién estoy?” y “¿Cómo es mi entorno?”",
+                        "Da 10 minutos para que lo realice y si notas que le cuesta trabajo identificar elementos para sus respuestas utiliza algunas preguntas indagatorias para estimular sus respuestas."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– El día de hoy iniciamos ya con la planeación de tu viaje y en todo viaje, se tiene una estación de inicio o de partida. Hoy vamos a platicar sobre “Tu estación de inicio”.",
+                        "– [Mostrar actividad 1] En esta hoja está una estación de metro cualquiera, ¿qué ves en ella?",
+                        "– Muy bien ahora,digamos que esta estación está ubicada en un lugar, imaginemos que esta taquilla está en el lugar más cercano de ti, donde tú iniciarás tu viaje. Por favor en las líneas que están alrededor de la imagen de esta estación, describe de la forma que te sea más cómoda, cómo es tu estación de inicio respondiendo a las preguntas que están escritas: ¿dónde estás?, ¿qué estás haciendo?, ¿con quién estas?, ¿cómo es tu entorno?"
+                    ]
+                }
+            ]
+        },
+
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Una vez que termine la actividad, pídele que te comparta lo que plasmó, después de la descripción, plantea algunas preguntas para profundizar en la reflexión y para la identificación de factores protectores y de riesgo."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– [NOMBRE DE LA/DEL JOVEN], ¿puedes compartirme qué hay en tu estación de inicio? [Escuchar la descripción del joven].",
+                        "– Ahora ¿qué te gusta de tu estación de inicio?, ¿qué no te gusta? y ¿por qué?",
+                        "– SI pudieras hacer cualquier cambio en esta estación de inicio ¿quémantendrías cómo está?, ¿qué te gustaría cambiar y por qué?",
+                        "– Siempre es importante saber y conocer de dónde partes, para saber a dónde quieres llegar, definir la ruta que te puede llevar de entre las opciones disponibles y para calcular el tiempo que te llevará hacerlo.",
+                        "– ¡Muchas Gracias! Nos vemos en la próxima sesión y estamos en contacto vía medios virtuales."
+                    ]
+                }
+            ]
+        },
+
+
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Registra en la Plataforma de Seguimiento los factores de riesgo y protectores de cada joven identificados en esta actividad y las imágenes de la actividad trabajada."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Tratar de conectar con la persona joven, preguntar más no insistir si no hay respuesta a las preguntas.",
+                        "✓ Respetar el ritmo de construcción de confianza de cada joven e intentar conectar a través de la identificación de sus intereses.",
+                        "✓ Mostrar atención e interés en lo que la joven o el joven comparten escuchando atentamente, con una mirada centrada en él o en ella y con el empate de la postura corporal que favorece y abona al lenguaje no verbal.",
+                        "✓ Evitar en todo momento realizar algún juicio personal, que las palabras, las miradas y la atención siempre demuestren a la persona joven respeto y agradecimiento por lo que está compartiendo contigo.",
+                        "✓ Al final de cada sesión con la persona joven, anotar los puntos más relevantes de las reflexiones desarrolladas, es importante hacerlo en los 10 minutos antes de iniciar la siguiente sesión para que no queden fuera del registro los aspectos relevantes identificados durante el encuentro."
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "titulo" : "2.3 MI DESTINO DE VIAJE Y SUS ESCALAS",
+    "tipo":"Actividad",
+    "vcrono" : 5,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Identificar intereses formativos, educativos y laborales, a partir de la reflexión que haga cada joven sobre los vagones actuales y los vagones proyectados a 6 meses, 1 año y 3 años. identificar sus sueños y recuperarlos en una lista de cada vagón, lo que representará la materia prima para la construcción del plan de vida."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Tercera semana de la etapa 2.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "30 minutos.",
+            "Materiales": [
+                "– Análisis del formato 2 de la libreta de actividades “Los vagones y mis acompañantes de viaje”. <br/>",
+                "– Actividad 3 “Definiendo mi destino de viaje... mis sueños, mi futuro a 6 meses” de la libreta de actividades. <br/>",
+                "– Actividad 3.1 “Definiendo mi futuro a 1 año” de la libreta de actividades. <br/>",
+                "– Actividad 3.2 “Definiendo mi futuro a 3 años” de la libreta de actividades.",
+                "– Lápiz con borrador."
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Da la bienvenida y deja un espacio de 5 minutos para preguntar cómo ha estado, y, si hay algún tema que se ha conversado vía contactos virtuales, aprovecha para dar seguimiento o comentarlo."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– Hola [NOMBRE DE LA/DEL JOVEN], bienvenida/o la sesión de hoy.",
+                        "– ¿Cómo te ha ido desde la última conversación?,¿quisieras platicar sobre algún tema en particular antes de iniciar? [Espacio para conversar (5 min. máximo)"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Definiendo mi destino de viaje... mis sueños, mi futuro (25 min.)",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Considerando la actividad 2 “Los vagones”, pregunta qué quisiera mejorar en cada vagón para cada periodo de tiempo (6 meses, 1 año y 3 años).",
+                        "Si la persona joven no incluyera de manera espontánea una meta o vagón meta (estudio y trabajo), identifica en el discurso y narrativa elementos que pudieran retomarse para preguntar si cree que continuar su educación/formación y/o trabajo remunerado ayudaría a mejorar algunos vagones. Reflexiona con la persona joven por qué sería importante considerarlos e invítale a añadirlos.",
+                        "Identifica sus sueños y anhelos preguntando lo siguiente para 6 meses, 1 año y 3 años:"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Cuando eras niño ¿recuerdas qué querías ser cuando fueras grande?",
+                        "¿Qué es lo más importante para ti en el mundo? ¿por qué?",
+                        "¿Cómo te gustaría verte?, ¿qué hiciste en esos años que pasaron hasta el día de hoy?",
+                        "¿Qué es lo que te haría más feliz realizar en 6 meses, 1, y 3 años?",
+                        "¿Qué persona quieres ser?",
+                        "¿Qué te gustaría hacer que te haga sentirte orgullosa/o en 6 meses, 1 año y 3 años?",
+                        "¿Qué tan importante sería para ti tener (o continuar) con un trabajo remunerado?",
+                        "¿Qué tan importante sería para ti regresar (o continuar) con tus estudios o formación?",
+                        "¿Cómo te gustaría relacionarte con las demás personas?, ¿cómo te gustaría ser reconocida/o?"
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Una vez que la conversación brinde los elementos necesarios indícale que en la actividad 3, 3.1 y 3.2, describa en cada vagón, cómo se visualiza en cada periodo. Cada formato de vagón lo utilizarán, a partir de la reflexión guiada, para identificar una lista de anhelos y sueños a 6 meses, 1 año y 3 años. Pídele que en los renglones de cada vagón enliste sus deseos y anhelos, para cada periodo de tiempo proyectado, puede iniciar por el periodo de tiempo que le parezca más sencillo."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                "✓ Recordar a las y los jóvenes que este metro es especial \"se vale soñar\"<br>",
+                "✓ Tener impresiones del formato extras para las y los jóvenes que decidan añadir más vagones, respecto a los definidos en la actividad anterior.<br>",
+                "✓ Estar muy atento a lo largo de todas las actividades de esta sesión, para poder recuperar información relevante y recordarle al joven, en caso de que no recuerde al momento hacer la lista de deseos.<br>"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "titulo" : "2.3.1 DESTINO DE VIAJE",
+    "tipo":"Actividad",
+    "vcrono" : 5,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Ayudar a cada joven a convertir sus anhelos, sueños y deseos en una o algunas metas para cada vagón de la actividad 4 “Definiendo mi destino de viaje... mis sueños, mi futuro”."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Segunda semana de la etapa 2.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "20 minutos.",
+            "Materiales": [
+                "– Actividad 3.3 “Mi destino de viaje” de la libreta de actividades.<br>",
+                "– Pluma y lápiz con borrador."
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Con los vagones desarrollados en la actividad 3, 3.1 y 3.2, que contienen las listas de anhelos y sueños, analicen juntos para cada periodo proyectado (6 meses, 1 año, 3 años) cómo pueden convertirse en 1, 2 o máximo 3 metas por vagón a partir de las listas de anhelos y sueños.",
+                        "En la actividad 3.3 se presentarán como metas “SMART” (específicas, medibles, alcanzables, realistas y con tiempo definido), como la consecución de algún objetivo, de tal manera que esta actividad se centrará en elegir de cada vagón de 1 a 3 acciones a conseguir en 6 meses, 1 año y 3 años.",
+                        "Dado que el enfoque esencial del programa JuventudES es la consolidación de metas laborales y educativas, se dará prioridad para identificar estas metas en los 6 próximos meses.",
+                        "Preguntas para guiar la reflexión:"
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "¿Qué tendrías que estar haciendo ahora para lograr tus anhelos en los siguientes 6 meses?",
+                        "¿Qué crees que tendrás que estar haciendo en 6 meses para lograr tus anhelos en 1 año?",
+                        "¿Qué crees que tendrás que estar haciendo en 1 año para lograr tus anhelos en 3 años?",
+                        "¿Qué pasos concretos puedes tomar para alcanzar tus anhelos de los próximos 6 meses, 1 año y 3 años?",
+                        "¿Cuál crees que sería el mejor primer paso para dar en cada vagón?",
+                        "¿Qué tan comprometido te sientes para dar estos primeros pasos?",
+                        "¿Qué tan fuerte es tu compromiso para dar estos primeros pasos?"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Al finalizar agrega a la Plataforma de Seguimiento los formatos y fotos de todas las actividades realizadas durante este contacto."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                "✓ Es importante definir las metas de aquello que depende de la persona joven y de los aspectos donde ella o él puede decidir.",
+                "✓ Algunas reflexiones que pueden compartirse con la persona joven:",
+                {
+                    "tipo" :"Lista",
+                    "elementos" : [
+                        "Siempre puedes llegar al mismo destino, utilizando diferentes rutas.",
+                        "Siempre es posible modificar la ruta, según las necesidades y experiencias que se van presentando en el viaje.",
+                        "Cuando llegas al destino que elegiste, te llevará al inicio de otro viaje, el viaje es permanente.",
+                        "Estamos en un continuo viaje, las experiencias vividas en el camino son las que nos ayudan a aprender y crecer."
+                    ]
+                }
+            ]
+        }
+    ]
+}

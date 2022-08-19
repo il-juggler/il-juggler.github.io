@@ -1,25 +1,26 @@
 {
     "titulo" : "1.1 ¡EL PRIMER ENCUENTRO!",
     "tipo":"Actividad",
+    "vcrono": 1,
     "contenido" : [
         { 
             "tipo":"ParrafoTitulado", 
             "titulo":"¿Cuál es el objetivo?", 
             "parrafoObjetivo" : true,
-            "texto": "Presentación del/de la gestor/a, primeros pasos para generar una relación de confianza y espacio de seguridad para escuchar y brindar el acompañamiento dirigido al logro de las metas fijadas por la/el joven con miras en su futuro positivo. A través de la entrevista motivacional se pretende identificar expectativas, intereses inquietudes y posibles dudas relacionadas directamente con el Programa Jóvenes de Oportunidad."
+            "texto": "Presentación del/de la gestor/a, primeros pasos para generar una relación de confianza y espacio de seguridad para escuchar y brindar el acompañamiento dirigido al logro de las metas fijadas por la/el joven con miras en su futuro positivo. A través de la entrevista motivacional se pretende identificar expectativas, intereses inquietudes y posibles dudas relacionadas directamente con el Programa JuventudES."
         },
         {
             "tipo" : "TablaGuia",
             "Como" : "Contacto Presencial",
-            "Cuando" : "Después de la etapa de reclutamiento, una vez que han sido seleccionados las y los jóvenes participantes. Considerar dos semanas antes de iniciar el Taller Formativo.",
+            "Cuando" : "Después del reclutamiento, una vez que se han seleccionado a las y los jóvenes participantes se tendrá un periodo de dos semanas para realizar el contacto con las y los jóvenes.",
             "Donde" : "Centro para jóvenes.",
             "Duracion" : "40 a 60 minutos.",
-            "Materiales": "– Guía de tópicos de entrevista motivacional."
+            "Materiales": "– Guía de entrevista."
         },
 
         { 
             "tipo" : "ParrafoTitulado", 
-            "titulo" : "Indicaciones para la persona gestora",
+            "titulo" : "Indicaciones para la persona consejera",
             "contenido" : [
                 {
                     "tipo" : "Lista",
@@ -27,8 +28,8 @@
                         "Saluda, preséntate y da la bienvenida al joven o a la joven.",
                         "Con base en la “Guía de tópicos de entrevista motivacional” lleva a cabo el primer encuentro de una forma relajada con una conversación fluida y natural.",
                         "Explica brevemente cuál es tu rol en el programa y la forma en que van a trabajar.",
-                        "Indaga sobre las metas y dificultades que tiene o pueda tener para su participación en el programa. Brinda toda la información para resolver cualquier duda que le surja.",
-                        "En el “Protocolo de Retención” [VER ANEXO] registra los posibles riesgos que puedan representar dificultades para que el o la joven completen su participación en el Programa."
+                        "Acuerda un medio de contacto que le sea viable para mantener la comunicación, así como los días y horarios de atención en que estarás disponible.",
+                        "Con base en la exploración de las actividades cotidianas que la persona joven realiza entre semana, explora acerca de los días y horarios que serán más viables para los futuros encuentros."
                     ]
                 }
             ]
@@ -41,9 +42,9 @@
                     "tipo" : "Lista",
                     "elementos" : [
                        "Hola [NOMBRE DE LA/DEL JOVEN], qué gusto conocerte.",
-                       "Yo soy [NOMBRE DEL/DE LA GESTOR/A], estaremos dialogando y trabajando juntos como equipo a lo largo de tu participación en el Programa de Jóvenes de Oportunidad a través de sesiones presenciales y contactos virtuales.",
-                       "Te proporcionaré mi número telefónico para estar en contacto por WhatsApp, ¿estás de acuerdo en que sea por este medio que podamos comunicarnos? Lo mantendré encendido de [DÍAS Y HORARIO]",
-                       "Para reunirnos, ¿qué días y horarios se te facilitan más o preferirías?, ¿cómo tienes organizadas tus actividades cotidianas entre semana?",
+                       "Yo soy [NOMBRE DE LA PERSONA CONSEJERA], estaremos dialogando y trabajando juntos como equipo a lo largo de tu participación en el Programa JuventudES a través de sesiones presenciales y contactos virtuales.",
+                       "Te proporcionaré mi número telefónico y correo electrónico para estar en contacto por WhatsApp o correo electrónico [o el medio de contacto acordado], ¿estás de acuerdo en que sea por este medio que podamos comunicarnos? Los días y horarios para entrar en contacto o cualquier duda que surja serán... [BRINDAR DÍAS Y HORARIO]",
+                       "Para reunirnos de manera presencial, ¿qué días y horarios se te facilitan más o preferirías?, ¿cómo tienes organizadas tus actividades cotidianas entre semana?",
                        {"tipo" : "TextoClave", "texto" : "Ahora para conocernos mejor, me gustaría preguntarte, ¿qué dirías que es lo que te hace sentir más entusiasmado/a sobre el Programa Jóvenes de Oportunidad?"},
                        {"tipo" : "TextoClave", "texto" : "¿Cuáles son las principales metas que tienes en mente al participar en el Programa?"},
                        {"tipo" : "TextoClave", "texto" : "¿Qué crees que necesitas para tener éxito en el Programa?"},
@@ -56,18 +57,102 @@
                 }
             ]
         },
+
+
+
         { 
-            "tipo" : "Consejos", 
-            "titulo" : "Consejos para la persona gestora:",
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
             "contenido" : [
                 {
                     "tipo" : "Lista",
                     "elementos" : [
-                        "Es muy importante que este encuentro sea una conversación totalmente informal, relajada, en la que las preguntas sólo sean una guía, pero que fluya de manera natural y siempre escuchando con atención a lo que la/el joven quiera compartir contigo.",
-                        "La entrevista motivacional está orientada en conocer las expectativas y generar entusiasmo en cada joven sobre su participación del Programa Jóvenes de Oportunidad.",
-                        "Procura que la reunión no pase de 60 minutos.",
-                        "En caso de que WhatsApp no sea un medio disponible para el/la joven, puedes preguntarle qué otro medio le gustaría que usen como mensaje de texto, llamada telefónica o alguna otra red de comunicación.",
-                        "Es importante que después de este primer encuentro puedas registrar los posibles riesgos que puedan representar dificultades para que el/la joven completen su participación en el Programa. Estos datos servirán para establecer estrategias de acompañamiento que reduzcan al máximo estos riesgos."
+                        "Indaga sobre las metas y dificultades que la persona joven tiene o pueda tener para su participación y permanencia en el programa.",
+                        "Para la identificación de riesgos en la participación puedes realizar las siguientes preguntas durante la entrevista motivacional:"
+                    ]
+                }
+            ]
+        },
+
+
+         
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "¿Tienes alguna dificultad para llegar al lugar donde se desarrollará el Taller?",
+                        "¿Te es posible llegar y permanecer en el Taller durante todo el horario establecido?",
+                        "¿Tienes alguna responsabilidad que te impida permanecer durante todo el horario establecido para el Taller?",
+                        "¿Algunas veces apoyas en tu casa a realizar actividades eventuales (cuidar de familiares más pequeños o adultos mayores, hacer la comida, acompañar a algún familiar a consultas médicas, etcétera) que te impidan llegar y permanecer durante el horario establecido para el Taller?",
+                        "¿Tienes la aprobación de tus papás o tutores para asistir al Taller, o necesitarás avisar o pedir permiso cada vez que asistas?",
+                        "¿Consideras que haya algo que pueda impedir que termines el Taller completo?",
+                        "¿Hay algo que tengas pendiente de resolver para tu ingreso al Programa o para asistir al Taller?"
+                    ]
+                }
+            ]
+        },
+
+
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Brinda toda la información para resolver cualquier duda que le surja.",
+                        "Deja un vínculo abierto para que la persona joven sienta la confianza de comunicarse contigo ante cualquier duda o inconveniente."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "¿Tienes alguna dificultad para llegar al lugar donde se desarrollará el Taller?",
+                        "¿Te es posible llegar y permanecer en el Taller durante todo el horario establecido?",
+                        "¿Tienes alguna responsabilidad que te impida permanecer durante todo el horario establecido para el Taller?",
+                        "¿Algunas veces apoyas en tu casa a realizar actividades eventuales (cuidar de familiares más pequeños o adultos mayores, hacer la comida, acompañar a algún familiar a consultas médicas, etcétera) que te impidan llegar y permanecer durante el horario establecido para el Taller?",
+                        "¿Tienes la aprobación de tus papás o tutores para asistir al Taller, o necesitarás avisar o pedir permiso cada vez que asistas?",
+                        "¿Consideras que haya algo que pueda impedir que termines el Taller completo?",
+                        "¿Hay algo que tengas pendiente de resolver para tu ingreso al Programa o para asistir al Taller?"
+                    ]
+                }
+            ]
+        },
+
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "En tu formato “Protocolo de Retención” registra los posibles riesgos que puedan representar dificultades para que la persona joven complete su participación en el Programa y una vez completo agrega la imagen a la Plataforma de Seguimiento en la sección de registro de la persona joven."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Es muy importante que este encuentro sea una conversación totalmente informal, relajada, en la que las preguntas sólo sean una guía, pero que fluya de manera natural y siempre escuchando con atención a lo que el joven o la joven quiera compartir contigo.",
+                        "✓ La entrevista motivacional está orientada en conocer las expectativas y generar entusiasmo en cada joven sobre su participación del Programa JuventudES.",
+                        "✓ Procura que la reunión no pase de 60 minutos.",
+                        "✓ En caso de que WhatsApp no sea un medio disponible para la persona joven, puedes preguntarle qué otro medio le gustaría que usen como correo electrónico, mensaje de texto, llamada telefónica o alguna otra vía de comunicación.",
+                        "✓ Es importante que después de este primer encuentro puedas registrar los posibles riesgos que puedan representar dificultades para que el joven o la joven completen su participación en el Programa. Estos datos servirán para establecer estrategias de acompañamiento que reduzcan al máximo estos riesgos."
                     ]
                 }
             ]

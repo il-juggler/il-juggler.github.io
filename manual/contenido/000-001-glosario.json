@@ -35,10 +35,7 @@
             "tipo": "ParrafoTitulado",
             "contenido" : "<strong>FIGURAS DE MENTORÍA:</strong> Personas que actúan como guías o consejeros que a través de su experiencia y/o conocimiento ayudan a otras personas a lograr los objetivos de sus planes o proyectos, poniendo en marcha acciones concretas."
         },
-        {
-            "tipo": "ParrafoTitulado",
-            "contenido" : "<strong>GESTOR(A).</strong> Persona joven responsable de dar un seguimiento individualizado a cada una(o) de las/los jóvenes a través de una relación de confianza y empatía que acompañe y promueva el autorreconocimiento de sus capacidades de agencia."
-        },
+    
         {
             "tipo": "ParrafoTitulado",
             "contenido" : "<strong>HABILIDADES PARA LA VIDA:</strong> También llamadas competencias psicosociales son las habilidades que posee o desarrolla una persona para enfrentarse con éxito a las exigencias y desafíos de la vida cotidiana."
@@ -53,7 +50,7 @@
         },
         {
             "tipo": "ParrafoTitulado",
-            "contenido" : "<strong>MAPA DE VIDA:</strong> Es una herramienta gráfica que ayuda a visualizar y tener presentes los objetivos que se desean alcanzar en diversos aspectos de la vida. Al ser un elemento gráfico incentiva el aprendizaje y aporta claridad de pensamiento."
+            "contenido" : "<strong>RUTA DE VIAJE:</strong> Es una herramienta gráfica que ayuda a visualizar y tener presentes los objetivos que se desean alcanzar en diversos aspectos de la vida. Al ser un elemento gráfico incentiva el aprendizaje y aporta claridad de pensamiento."
         },
         {
             "tipo": "ParrafoTitulado",
@@ -66,6 +63,10 @@
         {
             "tipo": "ParrafoTitulado",
             "contenido" : "<strong>REDES DE APOYO:</strong> Conjunto de relaciones que integran a una persona con su entorno social, o con personas con las que establecen vínculos solidarios y de comunicación para resolver necesidades específicas. Algunos tipos de apoyos que estas redes brindan incluyen los emocionales, instrumentales, cognitivos o materiales."
+        },
+        {
+            "tipo": "ParrafoTitulado",
+            "contenido" : "<strong>PLATAFORMA DE SEGUIMIENTO:</strong> Herramienta informática en donde las personas jóvenes subirán archivos relacionados con actividades acordadas y en donde las-os consejeras-os llevarán a cabo la revisión y monitoreo de avances y registro de asuntos pendientes de forma sistemática y personalizada."
         },
         {
             "tipo": "ParrafoTitulado",

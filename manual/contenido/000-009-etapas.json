@@ -1,0 +1,19 @@
+{
+    "titulo" : "VII. ETAPAS DEL MODELO DE CONSEJERÍA",
+    "id":"etapas-del-modelo",
+    "tipo":"Fase",
+    "contenido" : [
+        "<img src='./estructura-1.png'>",
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : "El Modelo de Consejería del Programa JuventudES considera cuatro etapas articuladas a través de una metáfora que busca conectar a las y los jóvenes con la idea de un viaje en metro a través de una red de líneas con diferentes escalas y estaciones para lograr las metas más importantes para ellas/os. Cada etapa contiene criterios de duración, metas, número de contactos previstos para desarrollar actividades, productos requeridos y herramientas."
+        },
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : "El trabajo personal que desarrollará la persona consejera con las y los jóvenes será abordado desde una metáfora identificable para las y los participantes. Esta metáfora es la de hacer un viaje en Metro, en un Metro especial, dónde una vez que inicias el viaje, éste te ayuda a cumplir tus metas, propósitos y anhelos, conforme van tomando decisiones y definiendo el rumbo en diferentes ámbitos de su vida. A partir de la experiencia de las y los jóvenes de haber viajado en metro, se plantean diferentes situaciones donde se profundiza sobre dónde se encuentran, cuál es su entorno o “estación” de donde parten, qué llevan en su mochila de viaje, cómo son los vagones de sus diferentes ámbitos de vida, quién les acompaña, etcétera. Utilizando esta metáfora, se presentan diferentes actividades con la finalidad de realizar una reflexión acompañada por las personas consejeras a lo largo de las 4 etapas del programa, hasta poder trazar su propia “ruta de viaje”, o planteamiento de metas (con énfasis en los ámbitos laboral y educativo) y poniéndola en marcha para ir alcanzando sus metas."
+        },
+        "<img src='./etapas-chart.png'>"
+    ]
+}

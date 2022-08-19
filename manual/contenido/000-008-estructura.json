@@ -1,0 +1,14 @@
+{
+    "titulo" : "VI. ESTRUCTURA ORGANIZACIONAL DEL PROGRAMA JUVENTUDES",
+    "id":"estructura-org",
+    "tipo":"Fase",
+    "contenido" : [
+        "<img src='./estructura-1.png'>",
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Relación de la persona consejera con el equipo",
+            "contenido" : []
+        },
+        "<img src='./estructura-2.png'>"
+    ]
+}

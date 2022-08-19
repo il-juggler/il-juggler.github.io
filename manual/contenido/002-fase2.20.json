@@ -1,0 +1,175 @@
+{
+    "titulo" : "2.2 LOS VAGONES Y MIS ACOMPAÑANTES DE VIAJE",
+    "tipo":"Actividad",
+    "vcrono" : 4,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Identificar las diferentes dimensiones importantes para cada joven y analizar sus relaciones personales con los \"acompañantes\" dentro de cada dimensión (vagón) utilizando la metáfora de los vagones de un tren."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "La segunda semana de la etapa 2.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "30 minutos.",
+            "Materiales": [
+                "– Actividad 2 “Los vagones” de la libreta de actividades”<br>",
+                "– Actividad 2.1 “Mis acompañantes de viaje” de la libreta de actividades.<br>",
+                "– Colores, plumones, plumas y lápiz."
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Da la bienvenida y deja un espacio de 5 minutos para preguntar cómo ha estado o si hay algún tema que se ha conversado vía contactos virtuales, aprovecha para dar seguimiento o comentarlo con la/el joven"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– Hola [NOMBRE DE LA/DEL JOVEN], bienvenida/o la sesión de hoy.",
+                        "– ¿Cómo te ha ido desde la última conversación?,¿quisieras platicar sobre algún tema en particular antes de iniciar? [Espacio para conversar (5 min. máximo)"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Continúa la conversación preguntando acerca de cómo fue su experiencia cuando viajó por primera vez en el metro de la CDMX."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– ¿Cómo fue tu experiencia la primera vez que tomaste el metro de la CDMX?",
+                        "– ¿Ibas acompañada/o?",
+                        "– ¿Qué pensaste al ver tantas personas?, ¿qué tan segura/o o amenazada/o te sentías? ¿puedes identificar qué hacía que te sintieras segura/o o amenazada/o"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Los vagones (15 minutos)",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "• Utilizando la actividad 2 “Los vagones” de la libreta de actividades, explica que cada vagón representará una dimensión importante de la vida y de las relaciones personales de la persona joven: familia, amigos, escuela, trabajo, el lugar de origen, desconocidos, etc.",
+                        "• En caso de que el joven no elija de manera voluntaria las dimensiones de escuela y trabajo, pregunta abiertamente si le gustaría añadir un vagón de estas dimensiones a su tren y qué tan importante sería para ella o él hacerlo.",
+                        "• Pide que nombre los vagones (dimensiones) que son importantes para ella o él, dándole un número libre, sin límite inferior ni superior.",
+                        "• Después, pídele que sobre las líneas responda a las preguntas: ¿cómo está el vagón?, ¿qué hay?, ¿qué tan lleno o vacío está?, ¿quién está ahí?",
+                        "• Una vez terminada la descripción de la persona joven, guía la reflexión con las siguientes preguntas:"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– ¿Qué tan cómodo es cada vagón?",
+                        "– ¿Qué te gusta de cada vagón?",
+                        "– ¿Qué te gustaría cambiar en cada vagón?",
+                        "– Ahora que me has compartido sobre todos los vagones, ¿te gustaría añadir un vagón más?, ¿crees que haga falta algún aspecto importante de tu vida por agregar?"
+                    ]
+                }
+            ]
+        },
+
+
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Mis acompañantes de viaje (15 minutos)",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Después de la reflexión de la actividad 2 “Los vagones”, pídele que las dimensiones que nombró en cada vagón, las escriba en los recuadros en blanco en la actividad 2.1 “Mis acompañantes de viaje” para que después elija los acompañantes que son más importantes para ella o él y los enliste en los renglones que están debajo de cada vagón. Puede ser una persona o hasta 3 en cada vagón y algunos vagones pueden no tener algún acompañante si así lo decide.",
+                        "Guía la reflexión con las siguientes preguntas poderosas:"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– De entre las personas de cada vagón, ¿a quién admiras?",
+                        "– ¿Quién o quiénes son tus mentores?, tanto con los que convivas personalmente, como los que te inspiran desde lejos.",
+                        "– ¿Quién te anima en tu crecimiento y desarrollo?",
+                        "– ¿Quiénes son las personas que sabes que te quieren y que desean lo mejor para ti?",
+                        "– ¿Con quién o quiénes son las personas con las que puedes contar para platicar de cómo te sientes, si algo te preocupa, o compartir tus alegrías?",
+                        "– ¿Con quién es que puedes contar para algún apoyo práctico de acompañarte a algún lugar, o para realizar alguna tarea?",
+                        "– ¿Con quién es que puedes contar para un apoyo económico en caso de que lo necesitaras?"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Pregunta si las personas representan un apoyo económico, práctico o emocional. <ul><li> Apoyo económico (Ec): Con quién se puede pedir alguna ayuda en emergencias económicas y sabe que le apoyaría.</li> <li>Apoyo práctico (P): Con quién se pueda contar para realizar alguna tarea, o acompañamiento a dónde lo necesite.</li> <li>Apoyo emocional (Em): Con quién se puede contar para platicar su estado de ánimo general, preocupaciones, miedos, alegrías, sueños, que le escucha y le hace sentir mejor.</li></ul>",
+                        "Anota en la herramienta “Mis acompañantes de viaje” esta información a un lado del nombre de cada persona con las siguientes abreviaturas: (Ec, P, Em). Una misma persona puede representar más de un apoyo y personas pueden no representar ningún tipo de apoyo."
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Es importante siempre tener presente que el joven es quién será el actor y artífice de su viaje, tú labor en la consejería es guiarle en el descubrimiento de sus intereses y acompañamiento en la toma de decisiones, dándole las herramientas que necesite para que cumplir con las metas de cada una de las diferentes etapas.",
+                        "✓ Mencionar y recordar que este metro es especial y podemos imaginar que todo es posible.",
+                        "✓ Ten preparadas impresiones extra, para las y los jóvenes que necesiten formatos adicionales para completar sus dimensiones importantes de vida (vagones)."
+                    ]
+                }
+            ]
+        }
+    ]
+}

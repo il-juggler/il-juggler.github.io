@@ -1,11 +1,194 @@
 window.Manual = {}
 var Tipos = {};
 
+
+var DatosCronograma = [
+   {
+        fase : "EXPLORACIÓN INICIAL Y CO-PLANEACIÓN",
+        bgColor:'#588AA3',
+        actividades : [
+            [1, "¡El primer encuentro!",1],
+            [2, "Alistándonos para iniciar el viaje",2]
+        ],
+        duracion: 2
+   },
+   {
+        fase : "CULTIVANDO FORTALEZAS Y UN SENTIDO DE PROPÓSITO",
+        'bgColor':'#3C538C',
+        actividades : [
+            [3, "Planeando mi viaje",3],
+            [4, "Los vagones y mis compañeros de viaje",4],
+            [5, "Mi destino de viaje y sus escalas",5]
+        ],
+       duracion:3
+   },
+   {
+        fase: "EMPODERAMIENTO E IMPLEMENTACIÓN DE PLAN DE VIDA",
+        'bgColor':'#28365C',
+        actividades : [
+            [6, "Mi mapa de viaje",6],
+            [7, "Insumos para mi viaje",7],
+            [8, "Rumbo a la Estación Empleo",8],
+            [9, "Rumbo a la Estación Educativa",9],
+            [10, "Ampliando mis compañeros de viaje",10]
+        ],
+        duracion:5
+   },
+   {
+        fase:"TRANSICIÓN Y SALIDA",
+        'bgColor':'#111737',
+        actividades : [
+            [11, "El viaje continúa, revisemos sus rutas y cronograma",14],
+            [12, "¿Me hace falta algo para continuar el viaje?",18],
+            [13, "¿Quiénes quiero que sean mis acompañantes especiales de viaje en el futuro y cómo me gustaría que fuera la comunicación con ellos?",22],
+            [14, "Reconociendo los aprendizajes y logros más importantes de mi viaje",26]
+        ],
+        duracion: 16
+   }
+]
+var Portada = {}
+Portada.view = function () {
+
+    return m('div#Portada.mt-2.pb-2.mb-2', [
+        m(".section.m-4.pt-6.p-4", [
+            m('.box', [
+                m('img[src="./a.jpg"]')
+            ])
+        ]),
+
+        m('div', [
+            m('img[src="./chuchu.png"]')
+        ]),
+
+        m('.section.has-text-centered', [
+            m.trust(`
+                <a href="./Cronograma del Modelo de Consejería.docx" class="button is-info is-outlined"> DESCARGAR CRONOGRAMA<i class="icofont-download"></i></a>
+                <br>
+                <br>
+                <a href="./Libreta_de_actividades_JuventudES_08 agosto_2022.pdf" class="button is-info is-outlined">DESCARGAR LIBRETA DE ACTIVIDADES <i class="icofont-download"></i></a>
+                <br>
+                <br>
+                <a href="./Materiales de Consejería (para impresión) JuventudES_13 julio 2022 (2).pdf" class="button is-info is-outlined">DESCARGAR MANUAL PDF<i class="icofont-download"></i></a>
+                <br>
+                <br>
+            `),
+
+            
+        ])
+    ])  
+}
+
+
+var Cronograma = {}
+Cronograma.show = false;
+Cronograma.section = false;
+
+Cronograma.Boton = function () {
+    return m('.has-text-centered', [
+        m('a.button.is-success.is-outlined[href=javascript:;]', {
+            onclick : () => {
+                Cronograma.show = Boolean(1-Number(Cronograma.show))
+                Cronograma.section = false
+            }
+        }, [
+            Cronograma.show ? 'Ocultar Cronograma' : 'Mostrar Cronograma'
+        ]),
+    ])
+}
+
+
+Cronograma.BotonVolver = function () {
+    return m('.has-text-centered', [
+        m('a.button.is-info.is-outlined[href=javascript:;]', {
+            onclick : () => {
+                Cronograma.show = true
+                Cronograma.section = false
+            }
+        }, [
+            'Volver al Cronograma'
+        ]),
+    ])
+}
+
+Cronograma.view = function() {
+    let celnumber = 0;
+    return m('.table-container', [
+        m('table.table', [
+            m('thead', [
+                m('tr', [
+                    m('th', {rowspan:2},'Actividad'),
+                    DatosCronograma.map(faseCol => {
+                        return m('th', {
+                            colspan: faseCol.duracion,
+                            style: {textAlign:'center', backgroundColor:  faseCol.bgColor, color:'white'},
+                        }, faseCol.fase)
+                    })
+                ]),
+
+                m('tr', [
+                    DatosCronograma.map(faseCol => {
+                        var d = []
+                        for(var i=0; i<faseCol.duracion; i++) {
+                            ++celnumber;
+                            d.push(
+                                m('th', {
+                                    style: {textAlign:'center', color:'white', 'background-color':  faseCol.bgColor }
+                                }, celnumber)
+                            )
+                        }
+                        return d
+                    })
+                ])
+            ]),
+
+            DatosCronograma.map(fase => {
+                return m('tbody', {style:'border-bottom:1px solid gray'},[
+                    fase.actividades.map(act => {
+                        let celnumber =0;
+                        return m('tr', [
+                            m('th', {
+                                style: {cursor:'pointer',borderBottom:'1px solid white', color:'white', backgroundColor: fase.bgColor},
+                                onclick: () => {
+                                    console.log('click:', act[2])
+                                    Cronograma.section =    act[2]
+                                }
+                            }, 
+                            
+                            act[1]),
+                            DatosCronograma.map(faseCol => {
+                                var d = []
+                                for(var i=0; i<faseCol.duracion; i++) {
+                                    ++celnumber;
+                                    d.push(
+                                        m('td', {
+                                            style: {
+                                                border:'none', 
+                                                'background-color': act[2] == celnumber? faseCol.bgColor : '#ACB9CA',
+                                                'cursor': act[2] == celnumber? 'pointer' : 'inherit',
+                                               
+                                            },
+                                            onclick : () => {
+                                                console.log('click:', act[2])
+                                                if(act[2] == celnumber) Cronograma.section = act[2]
+                                            }
+                                        })
+                                    )
+                                }
+                                return d
+                            })
+                        ])
+                    })
+                ])
+            })
+        ])
+    ])
+}
+
 ElementosDelMenu = [
-    {'texto':'Fase 1', 'bgColor':'#588AA3'},
-    {'texto':'Fase 2', 'bgColor':'#3C538C'},
-    {'texto':'Fase 3', 'bgColor':'#28365C'},
-    {'texto':'Fase 4', 'bgColor':'#111737'},
+    {'texto':'Fase 1', 'bgColor':'#588AA3', href:'#Fase1'},
+    {'texto':'Fase 2', 'bgColor':'#3C538C', href:'#Fase2'},
+    {'texto':'Fase 3', 'bgColor':'#28365C', href:'#Fase3'},
+    {'texto':'Fase 4', 'bgColor':'#111737', href:'#Fase4'},
 ]
 
 Manual.view = function(vnode) {
@@ -13,7 +196,7 @@ Manual.view = function(vnode) {
         m('div.content', [
            m('.columns', [
                 m('.column.is-hidden-mobile.is-one-quarter', [
-                    m('div', {'style':'border-left:10px solid #D66B31'}, [
+                    m('div', {'style':'position:fixed;border-left:10px solid #D66B31'}, [
                         ElementosDelMenu.map(el => {
                             let style = {
                                 'background-color' :  el.bgColor,
@@ -24,21 +207,42 @@ Manual.view = function(vnode) {
                                 'padding' : '20px 0 45px 20px',
                                 'margin' : '20px auto 20px 0',
                                 'width' : '120px',
-                                'color' : '#fbfbfb'
+                                'color' : '#fbfbfb',
+                                'display' :'block'
                             }
-                            return m('div.', {style:style}, el.texto)
-                        })
+                            return m('div', [
+                                m('a', {style:style, href:el.href}, el.texto)
+                            ])
+                         })
                     ])
                 ]),
-                m('.column.is-full-mobile', [
-                    vnode.children.map(Manual.displayElement)
+                m('.column.is-full-mobile.is-three-quarters-tablet', [
+                    m(Portada),
+                    Cronograma.section == false ? Cronograma.Boton() : null,
+                    Cronograma.show && Cronograma.section == false ? m(Cronograma) : '',
+                    Cronograma.show && Cronograma.section == false ?  Cronograma.Boton() : '',
+
+                    Cronograma.show && Cronograma.section != false ?  Cronograma.BotonVolver() : '',
+                    vnode.children.map(d => {
+                        return Manual.displayFase(d, Cronograma.show, Cronograma.section)
+                    }),
+                    Cronograma.show && Cronograma.section != false ?  Cronograma.BotonVolver() : '',
                 ])
            ])
         ])
     ])
 }
 
-Manual.displayElement = function(elemento) {
+
+Manual.displayFase = function (d, Enabled, val) {
+    if(Enabled) {
+        if(val != d.vcrono) return 
+    }
+
+    return m(Tipos.Fase, d, d.contenido)
+}
+
+Manual.displayElement = function(elemento, Enabled, valor) {
     let el = '';
     if(typeof elemento == 'string') return m.trust(elemento);
     if(!elemento.tipo) return m('div.has-text-danger', 'Sin tipo especificado');
@@ -87,6 +291,12 @@ tablaPrincipal.view = function(vnode) {
 var TablaGuia = {}
 Tipos.TablaGuia = TablaGuia
 TablaGuia.view= function(vnode) {
+
+    let Materiales = vnode.attrs.Materiales;
+    if(typeof Materiales.map == 'function') {
+        Materiales = vnode.attrs.Materiales.map(mat => m.trust(mat))
+    }
+    
     return m('table', {style:'margin:20px 0 20px 0'}, [
        m('tbody', [
            vnode.attrs.Como ? m('tr', {style:{border:'5px solid white'}}, [ 
@@ -105,9 +315,9 @@ TablaGuia.view= function(vnode) {
                 m('td', {style:{verticalAlign:'middle', width: '60px'}},m('div', {style: {width:'50px', height:'50px', backgroundColor:'#95A1BE', borderRadius:'25px', textAlign:'center'} }, m('img', {style:"padding-top:5px;width:40px", src:'./azules/duracion.png'}))),
                 m('td', {style:{verticalAlign:'middle',backgroundColor:'#D9D9D9'}} ,m('b.fazul', 'Duración'), m('br'), vnode.attrs.Duracion) 
              ]) : null,
-             vnode.attrs.Materiales ? m('tr', {style:{border:'5px solid white'}}, [ 
+             Materiales ? m('tr', {style:{border:'5px solid white'}}, [ 
                 m('td', {style:{verticalAlign:'middle', width: '60px'}},m('div', {style: {width:'50px', height:'50px', backgroundColor:'#95A1BE', borderRadius:'25px', textAlign:'center'} }, m('img', {style:"padding-top:5px;width:40px", src:'./azules/materiales.png'}))),
-                m('td', {style:{verticalAlign:'middle',backgroundColor:'#D9D9D9'}} ,m('b.fazul', 'Materiales'), m('br'), vnode.attrs.Materiales) 
+                m('td', {style:{verticalAlign:'middle',backgroundColor:'#D9D9D9'}} ,m('b.fazul', 'Materiales'), m('br'), Materiales) 
              ]) : null
        ])
     ])
@@ -151,10 +361,16 @@ Lista.view = function(vnode) {
 var PantallaMovil = {}
 Tipos.PantallaMovil = PantallaMovil
 PantallaMovil.view= function(vnode) {
-    return m('div.elemento.PantallaMovil', {style:'background: #f0f0f0; border-radius:10px; padding:10px; margin:10px; border:30px solid gray'}, [
-        m('h3', vnode.attrs.titulo),
-        Manual.displayElements(vnode.children)
+    return m('.columns', [
+        m('.column.is-half.has-text-right.is-hidden-mobile', [
+            m('img[src=./naranjas/monito-indicador.png]', {style:'max-height:400px'})
+        ]),
+        m('div.elemento.PantallaMovil.is-half.column', {style:'background: #f0f0f0; border-radius:10px; padding:10px; margin:10px; border:10px solid gray;  border-bottom:50px solid gray; '}, [
+            m('h3', vnode.attrs.titulo),
+            Manual.displayElements(vnode.children)
+        ])
     ])
+    
 }
 
 
@@ -170,16 +386,30 @@ TextoClave.view= function(vnode) {
 
 var Consejos = {}
 Tipos.Consejos = Consejos
-Consejos.view= function(vnode) {
-    return m('div', {style:{marginTop:'2em', border:'2px solid #588AA3', padding:'1em'}} ,[
+Consejos.view = function(vnode) {
+    m('div', {style:{marginTop:'2em', border:'2px solid #588AA3', padding:'1em'}} ,[
         m('img', {style:'float:right;width:40px',src:'./foco-consejos.png'}),
-        m('h5', {style:{color:"#4FADEA"}}, vnode.attrs.titulo),
+        vnode.attrs.titulo ?  m('h5', {style:{color:"#4FADEA"}}, vnode.attrs.titulo) : '',
         Manual.displayElements(vnode.children)
     ])
 }
 
-Tipos.ConversacionPresencial = Tipos.PantallaMovil
 
+
+var ConversacionPresencial = {}
+Tipos.ConversacionPresencial = ConversacionPresencial
+ConversacionPresencial.view= function(vnode) {
+    return m('div', {style:'margin:20px'},[
+        m('div.elemento.ConversacionPresencial', {style:'background: #DCE0E9; border-radius:10px; padding:5px; margin:10px; border:3px solid #2E6784;'}, [
+            vnode.attrs.titulo ? m('h3', vnode.attrs.titulo) : '',
+            Manual.displayElements(vnode.children)
+        ]),
+        m('div.has-text-centered', [
+            m('img', {style:'max-width:180px', src:'./naranjas/conversacion.png'}),
+        ])
+    ])
+    
+}
 
 function Toggle(id) {
     let el = document.querySelector('#'+id)

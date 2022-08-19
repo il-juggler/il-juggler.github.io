@@ -1,0 +1,47 @@
+{
+    "titulo" : "4. TRANSICIÓN Y SALIDA",
+    "id":"Fase4",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "tablaPrincipal",
+            "filas" : [
+                {"imagen":"./naranjas/duracion.png","titulo":"DURACIÓN", "texto": "4 meses (al egreso del Taller formativo)."},
+
+                {"imagen":"./naranjas/virtual.png","titulo":"CONTACTO VIRTUAL", "contenido": [
+                    "(1) El viaje continúa, revisemos sus rutas y cronograma.",
+                    "(2) ¿Me hace falta algo para continuar el viaje?",
+                    "(3) ¿Quiénes quiero que sean mis acompañantes especiales de viaje en el futuro y cómo me gustaría que fuera la comunicación con ellos?",
+                    "(4) Reconociendo los aprendizajes y logros más importantes de mi viaje."
+                ]},
+                {"imagen":"./naranjas/metas.png","titulo":"METAS", "contenido": [
+                     
+                    "<strong>4.1</strong> Revisar avances del Plan de Vida de la persona joven para reevaluar sus necesidades y/o ajustar los servicios que le permitan seguir encaminado hacia el logro de sus objetivos.",
+                    "<strong>4.2</strong> Reconocer figuras de mentoría, por parte de las y los jóvenes, quienes serán importantes para mantener el Plan de Vida después del programa a través de sus propios círculos cercanos y a partir de la reflexión sobre los aprendizajes de larelación entre la persona consejera y la persona joven.",
+                    "<strong>4.3</strong> Consolidar las redes de apoyo de la persona joven."
+                    ] 
+                },
+                {
+                    "imagen":"./naranjas/productos-requeridos.png",
+                    "titulo":"PRODUCTOS REQUERIDOS",
+                    "contenido":[
+
+                        "✓ Constancias de compromisos y logros obtenidos.",
+                        "✓ Lista de aprendizajes de la relación entre la persona joven y la persona consejera."
+                    ]
+                },
+                {
+                    "imagen":"./naranjas/herramientas.png",
+                    "titulo":"HERRAMIENTAS",
+                    "contenido" : [
+                        "✓ Imagen de la actividad 4 “Mi ruta de Viaje” realizada previamente.",
+                        "✓ Formato de “Carta de bienvenida a tu destino” de los materiales de consejería. De la libreta de actividades:",
+                        "✓ Actividad 8 “Cronograma de viaje”.",
+                        "✓ Actividad 9 “Mis acompañantes especiales”.",
+                        "✓ Actividad 10 “Listado de aprendizajes”."
+                    ]
+                }
+            ]
+        }
+    ]
+}

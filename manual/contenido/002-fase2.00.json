@@ -1,0 +1,49 @@
+{
+    "titulo" : "2. CULTIVANDO FORTALEZAS Y UN SENTIDO DE PROPÓSITO",
+    "id":"Fase2",
+    "tipo":"Fase",
+    "contenido" : [
+        {
+            "tipo": "tablaPrincipal",
+            "filas" : [
+                {"imagen":"./naranjas/duracion.png","titulo":"DURACIÓN", "texto": "3 semanas (durante el taller formativo)."},
+                {"imagen":"./naranjas/presencial.png","titulo":"CONTACTO PRESENCIAL", "texto": "(1) ¡El primer encuentro!"},
+            
+                {"imagen":"./naranjas/metas.png","titulo":"METAS", "contenido": [
+                       "<strong>2.1</strong> Identificar factores de riesgo y protección del contexto.",
+                       "<strong>2.1.1</strong> Identificar los intereses formativos, educativos y laborales.",
+                       "<strong>2.2</strong> Seguir construyendo la relación de confianza entre la persona consejera y la persona joven.",
+                       "<strong>2.2.1.</strong> Desarrollar el proceso de reconocimiento de fortalezas.",
+                       "<strong>2.3</strong> Identificar expectativas y aspiraciones sobre el futuro."
+                    ] 
+                },
+                {
+                    "imagen":"./naranjas/productos-requeridos.png",
+                    "titulo":"PRODUCTOS REQUERIDOS",
+                    "contenido" :[
+                        "✓ Proyecto de Plan de Vida. <br/>", 
+                        "✓ Lista de personas importantes en sus diferentes círculos (familia, amigos, compañeras/os de trabajo/escuela)."
+
+                    ]
+                },
+                {
+                    "imagen":"./naranjas/herramientas.png",
+                    "titulo":"HERRAMIENTAS",
+                    "contenido" : [
+                        "✓ Contactos virtuales para seguimiento y apoyo en el desarrollo del taller. De los materiales para la persona consejera:",
+                        "✓ Preguntas poderosas “La bolsa de las preguntas”",
+                        "✓ Tarjetas “Lo importante para mí” De la libreta de actividades:",
+                        "✓ Actividad 1 “Mi estación de inicio ¿dónde estoy?”",
+                        "✓ Actividad 2 “Los vagones”",
+                        "✓ Actividad 2.1 “Mis acompañantes de viaje”",
+                        "✓ Actividad 2.2 “Mi mochila para el viaje, ¿qué llevo conmigo?”",
+                        "✓ Actividad 3 “Definiendo mi destino de viaje... mis sueños, mi futuro a 6 meses”",
+                        "✓ Actividad 3.1 “Definiendo a 1 año”",
+                        "✓ Actividad 3.2 “Definiendo a 3 años”",
+                        "✓ Actividad 3.3 “Mi destino de viaje”"
+                    ]
+                }
+            ]
+        }
+    ]
+}

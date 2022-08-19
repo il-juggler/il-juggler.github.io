@@ -1,0 +1,108 @@
+{
+    "titulo" : "2.2.1 MI MOCHILA PARA EL VIAJE ¿QUÉ LLEVO CONMIGO?",
+    "tipo":"Actividad",
+    "vcrono" : 4,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Identificar las diferentes dimensiones importantes para cada joven y analizar sus relaciones personales con los \"acompañantes\" dentro de cada dimensión (vagón) utilizando la metáfora de los vagones de un tren."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Segunda semana de la etapa 2.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "30 minutos.",
+            "Materiales": [
+                "– Formato 2.2 de la libreta de actividades “Mi mochila de viaje ¿qué llevo conmigo?”<br/>",
+                "– Pluma y lápiz con borrador.<br/>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Comenta que, en todo viaje, por corto o largo que sea, debemos decidir qué llevar.",
+                        "Utilizando la actividad 2.2 “Mi mochila para el viaje, ¿qué llevo conmigo?” de la libreta de actividades” explica lo siguiente:"
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Para esta actividad, la mochila representa aquello que quieres que te acompañe en tu viaje, la mesa representa lo que quieres dejar para que tu viaje se haga más ligero.",
+                        "Esta elección es importante hacerla consciente, pensando en aquello que podamos necesitar, lo que nos servirá, lo que no traemos, pero creemos que nos hará bien llevar.",
+                        "También es importante decidir aquellas cosas que llevamos y que nos hacen pesado el viaje, que nos estorban y que tal vez no nos habíamos dado el tiempo para identificarlo. El día de hoy vas a decidir qué quieres llevar en tu mochila en este viaje y qué quisieras dejar, ¿qué te puede hacer pesado el viaje?"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Utiliza el ejemplo de la mochila para identificar fortalezas, motivaciones, valores y creencias. Por ejemplo: amor de, y a sus familiares, ejemplo de sus antepasados (como abuelitos), confianza en ellos mismos, etc. También considera aquellos aspectos que identificó que lo limitan como por ejemplo el miedo a las cosas nuevas y desconocidas, falta de organización de tiempos, poca paciencia, timidez, etc.",
+                        "Pide que escriba: <ul> <li> Dentro de la mochila lo que lleva y considera que quiere mantener para el viaje. o Arriba de la mochila lo que no lleva actualmente, pero quisiera llevar.</li><li> En los cajones de la mesa indicar, lo que lleva actualmente en la mochila y quisiera sacar de la mochila.</li></ul>",
+                        "Apoya para que analice con las siguientes preguntas:"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "– ¿Qué más herramientas quisieras llevar?",
+                        "– ¿Qué crees que podrías necesitar y aún no llevas?",
+                        "– ¿Crees que algo pueda hacerte más pesado el viaje?",
+                        "– (Preguntar para cada uno) ¿por qué eliges llevarlo o dejarlo? "
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Al finalizar toma foto de las actividades y agrega las imágenes a la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Para que toda metáfora sirva como estímulo para la reflexión es importante invitar a imaginar las cosas de la vida de la persona joven y que representan los elementos de la metáfora. Si identificas que le es difícil equiparar ambos planos ayuda con algunos ejemplos cuidando de no inducir sus respuestas."
+                    ]
+                }
+            ]
+        }
+    ]
+}

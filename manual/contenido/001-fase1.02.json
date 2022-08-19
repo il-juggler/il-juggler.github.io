@@ -1,6 +1,7 @@
 {
     "titulo" : "1.2 ALISTÁNDONOS PARA INICIAR EL VIAJE",
     "tipo": "Actividad",
+    "vcrono":2,
     "contenido" : [
         {
             "tipo":"ParrafoTitulado", 
@@ -16,10 +17,27 @@
             "Materiales": "− Mensaje de texto."
         },
 
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Utilizando el ejemplo de la imagen, envía un saludo por medio de un mensaje vía WhatsApp, correo electrónico, mensaje SMS o mediante una llamada telefónica, dependiendo de la vía de comunicación acordada con cada joven.",
+                        "Asegúrate de que el joven o la joven sepa dónde, cuándo y en qué horario será el inicio del Taller Formativo.",
+                        "Brinda toda la información que requiera en caso de hacerle falta y hazle saber que te importa su participación y asistencia.",
+                        "Incluye la confirmación de cada joven en la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+        
+
         {
             "tipo" : "PantallaMovil",
             "contenido" : [
-                "Hola [NOMBRE DE LA/DEL JOVEN], muy buen día!!!",
+                "Hola [NOMBRE DE LA/DEL JOVEN], muy buen día!!! ☀️",
                 "<br>",
                 "Espero que te encuentres muy bien, ¿ya lista(o) para iniciar el próximo día...? ☀️",
                 "<br>",
@@ -31,8 +49,18 @@
 
         {
             "tipo":"Consejos", 
-            "titulo":"Consejos para la persona gestora:",
-            "texto":"Este es un momento inicial muy importante para asegurar la participación del/de la joven que requiere una respuesta oportuna ante cualquier inquietud o duda. Se puede compartir un video, poema, canción o elemento relacionado con algún gusto expresado en el primer encuentro."
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Se recomienda llevar un registro de confirmaciones de las y los jóvenes y pendientes en los que se puede apoyarles para asegurar su participación.",
+                        "✓ Envía siempre mensajes para recordar el inicio de actividades e identificar cualquier situación que requiera atención.",
+                        "✓ Este es un momento inicial muy importante para asegurar la participación de las y los jóvenes por lo que se requiere de una respuesta oportuna ante cualquier inquietud o duda.",
+                        "✓ Puedes compartir un video, poema, canción o elemento relacionado con algún gusto expresado en el primer encuentro."
+                    ]
+                }
+            ]
         }
     ]
 }

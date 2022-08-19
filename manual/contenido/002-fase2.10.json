@@ -1,0 +1,122 @@
+{
+    "titulo" : "2.1 PLANEANDO MI VIAJE...",
+    "tipo":"Actividad",
+    "vcrono" : 3,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Identificar intereses, hobbies, valores, logros, preocupaciones, temas \"pendientes\" o por realizar de la persona joven, así como cimentar una relación de confianza y respeto con la persona consejera."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Durante la primera semana de la etapa 2.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "30 minutos.",
+            "Materiales": [
+                "– Una bolsa de papel o tela donde puedan sacar con la mano papeles doblados..</br>",
+                "– Lista de preguntas poderosas del material para la persona consejera “La bolsa de las preguntas” impresas, recortadas y dobladas dentro de la bolsa.</br>",
+                "– Imágenes del material para la persona consejera del formato “Lo importante para mí”, impresas a color y plastificadas.</br>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Dos o tres días antes de la sesión, envía un mensaje vía WhatsApp, correo electrónico, mensaje SMS o presenta la información vía llamada telefónica, dependiendo de la vía de comunicación acordada o que esté disponible para cada joven.",
+                        "Inicia la conversación sobre la forma en que estarán trabajando tú y la persona joven con base en el siguiente ejemplo."
+                    ]
+                }
+            ]
+        },
+
+        { 
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Reflejar en el mensaje una parte importante del trabajo que se desarrollará para enfatizar que las decisiones serán tomadas por la persona joven al igual que la elección de su destino/metas."
+    
+                    ]
+                }
+            ]
+        },
+
+        { 
+            "tipo":"PantallaMovil", 
+            "contenido" : [
+                "<p>¡Hola! ¿Cómo estás? Espero que muy bien.</p>",
+                "<p>Te recuerdo que el próximo [FECHA] en el horario [HORARIO] nos veremos en el centro para jóvenes para iniciar tu viaje. Con un paso se inicia todo gran camino, y es emocionante que lo hayas dado. El metro en el que viajas no es común.</p>",
+                "<p>Este metro es especial porque tiene la magia de ¡ayudarte a cumplir tus más grandes anhelos!, mientras tú vas tomando las decisiones sobre las rutas y direcciones entre las opciones que irás descubriendo, a medida que avanzas las diferentes estaciones, hasta llegar al lugar de destino que elegiste. No dudes en contactarme si tienes alguna duda o complicación, estaré feliz de apoyarte.</p>"
+            ]
+        },
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "Da la bienvenida y deja un espacio de 5 minutos para preguntar cómo ha estado, si hay algún tema que se ha conversado vía contactos virtuales, aprovecha para dar seguimiento o comentarlo con la/el joven."
+                    ]
+                }
+            ]
+        },
+
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "La bolsa de las preguntas (15 minutos)",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Mostrando la bolsa de papel o tela con las preguntas detonadoras previamente recortadas, dobladas y colocadas en la bolsa, explica que a continuación harán una dinámica que consistirá en tomar por turnos un papel que contiene una pregunta, para después ambos contestarla.",
+                        "Para que la actividad “La bolsa de las preguntas” tenga una fluidez de ida y vuelta, genera una conversación donde ambos compartan temas generales que vayan cimentando la relación de confianza a partir de conocerse mutuamente.",
+                        "Muestra interés sobre sus respuestas e indaga en los aspectos que consideres importantes para conocerle mejor.",
+                        "Antes de pasar a la siguiente actividad agradece todo aquello que te compartió."
+                    ]
+                }
+            ]
+        },
+
+        { 
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Lo importante para mí (15 minutos)",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Utilizando las imágenes impresas, recortadas y plastificadas del formato “Lo importante para mí”, que pueden representar diferentes dimensiones de la vida como lugares, profesiones, actividades lúdicas, familia, etc. pide a la persona joven que elija una o dos imágenes de cada una de las categorías de acuerdo con la relevancia que puedan tener y que posteriormente las ordene según la importancia para él o ella (pudiendo dejar fuera las imágenes que no coincidan con sus intereses).",
+                        "Pide que te platique qué significa cada imagen, y por qué las colocó en ese orden."
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Estar preparado con todo lo necesario antes de la hora de inicio con cada joven.</br>",
+                        "✓ Ser puntual con las actividades, para respetar el tiempo dedicado a cada joven.</br>",
+                        "✓ Recibir siempre con una sonrisa y expresar que es bienvenida/o en cada sesión 1:1.</br>",
+                        "✓ Establecer un rango de 10 minutos entre la hora de inicio de la sesión y la hora de término de la sesión anterior.</br>",
+                        "✓ Durante el tiempo que se esté con cada joven, estar centrada/o en el aquí y el ahora, en ella o en él, poner toda la atención en la actividad y en lo que la persona joven esté compartiendo.</br>",
+                        "✓ Hacer siempre un espacio agradable, y ligero.</br>",
+                        "✓ En todo momento la persona joven debe recibir y percibir un trato amable, respetuoso y que le demuestre interés y confianza</br>."
+                    ]
+                }
+            ]
+        }
+    ]
+}
