@@ -23,8 +23,19 @@ content.fase1 = [
     require('./contenido/002-fase2.21.json'),
     require('./contenido/002-fase2.30.json'),
     require('./contenido/002-fase2.31.json'),
+
     require('./contenido/003-fase3.00.json'),
-    require('./contenido/004-fase4.00.json')
+    require('./contenido/003-fase3.10.json'),
+    require('./contenido/003-fase3.20.json'),
+    require('./contenido/003-fase3.30.json'),
+    require('./contenido/003-fase3.40.json'),
+    require('./contenido/003-fase3.50.json'),
+
+    require('./contenido/004-fase4.00.json'),
+    require('./contenido/004-fase4.10.json'),
+    require('./contenido/004-fase4.20.json'),
+    require('./contenido/004-fase4.30.json'),
+    require('./contenido/004-fase4.40.json')
 ]
 
 fs.writeFileSync('./contenido.js', 'window.contenido = '.concat(JSON.stringify(content.fase1)) )

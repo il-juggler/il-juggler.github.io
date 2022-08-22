@@ -1,0 +1,85 @@
+{
+    "titulo" : "4.1 EL VIAJE CONTINÚA, REVISEMOS SUS RUTAS Y CRONOGRAMA",
+    "tipo":"Actividad",
+    "vcrono" : 14,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Hacer reconocible para la persona joven el inicio de una nueva Etapa en la que el viaje no ha terminado, sino que es el momento para revisar avances y dar continuidad a las metas fijadas ya sea de empleo o de educación."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Virtual",
+            "Cuando" : "Al mes de haber concluido la Etapa 3, aproximadamente en la semana 14 de inicio de su participación en el programa.",
+            
+            "Duracion" : "El día que se contacte al joven, se dará un plazo de hasta 3 días para que la persona joven realice la actividad y envíe el producto solicitado (foto de mapa de viaje actualizado con fechas).",
+            "Materiales": [
+                "– Mensaje de texto o audio con indicaciones.<br>",
+                "– Fotografía de la actividad 4 “Mi ruta de viaje” elaboradapreviamente por cada joven.<br>",
+                "– Actividad 8 “Cronograma de viaje” de la libreta de actividades.<br>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Envía foto de la actividad 4“Mi ruta de viaje” que realizó en su libreta la persona joven durante la Etapa 3.",
+                        "Con base en la revisión de su ruta de viaje, pídele que en la actividad 8 de su libreta de actividades, establezca algunas metas para cada mes.",
+                        "Es muy importante que le recuerdes en la comunicación virtual lo que se ha logrado hasta el momento y los objetivos de esta Etapa, por lo que el mensaje deberá mantener un hilo conductor sobre el viaje."
+
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "PantallaMovil",
+            "contenido" : [
+                "- Hola, muy buen día!!! [NOMBRE DE LA/DEL JOVEN]",
+                "<br>",
+                "- ¿Cómo va todo? 🙋🏻‍♀️🙋🏻‍♂️",
+                "<br>",
+                "-Como platicamos hace un mes, ha llegado el momento de conversar sobre las acciones para continuar el viaje y lograr cada una de las metas que te fijaste.",
+                "<br>",
+                "-Te envío la ruta de viaje que hiciste hace algunas semanas para pedirte que la revises y hagas cualquier ajuste que pienses importante, así como establecer fechas aproximadas para llegar a aquellas que aún están pendientes.",
+                "<br>",
+                "<img src='./naranjas/fase4-ruta.png'>"
+            ]
+        },
+
+
+        {
+            "tipo" : "PantallaMovil",
+            "contenido" : [
+                "De tu libreta de actividades utiliza el formato 8 para establecer fechas y metas en forma de calendario y envíamelo posteriormente para trabajar juntos en ellas.",
+                "<br>",
+                "<img src='./naranjas/fase4-tablacronograma.png'>",
+                "<br>",
+                "Dime si requieres algún trámite o documento en el que pueda apoyar para que el viaje pueda seguir sin contratiempos."
+            ]
+        },
+
+
+       
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Estimular el contacto con mucha calidez y dejar claro que estamos en una nueva Etapa para que el viaje siga rindiendo los frutos esperados."
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

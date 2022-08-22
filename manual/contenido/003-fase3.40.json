@@ -1,0 +1,92 @@
+{
+    "titulo" : "3.4 RUMBO A LA ESTACIÓN EDUCATIVA",
+    "tipo":"Actividad",
+    "vcrono" : 9,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Apoyar a las y los jóvenes para el cumplimiento de sus metas plasmadas en la dimensión educativa de la actividad “Mi ruta de viaje”, particularmente en las necesidades identificadas en la actividad de “Insumos para mi viaje”."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Virtual",
+            "Cuando" : "Cuarta semana de la etapa 3.",
+            "Materiales": [
+                "– Actividad4 (trabajada previamente) “Mi ruta de viaje” de la libreta de actividades donde se establecen las necesidades identificadas para el cumplimiento de metas de la ruta “Educativa”. <br>",
+                "– Actividad 5 “Mi lista de insumos” trabajada previamente. <br>",
+                "– Actividad 7 “Ruta educativa” de la libreta de actividades. <br>",
+                "– Pluma y lápiz"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Saluda, da la bienvenida y pregúntale a la joven o al joven cómo se encuentra.",
+                        "Deja un espacio de 5 minutos para preguntar cómo ha estado o si hay algún tema que se ha conversado vía contactos virtuales, aprovecha para dar seguimiento o comentarlo."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Hola [NOMBRE DE LA/DEL JOVEN], bienvenida/o la sesión de hoy.",
+                        "¿Cómo te ha ido desde la última conversación?, ¿quisieras platicar sobre algún tema en particular antes de iniciar? [Espacio para conversar (5 min. máximo)]"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Apóyale a llenar el recuadro de la actividad 7 “Mi ruta educativa”, retomando las actividades identificadas en “Mi lista de insumos”.",
+                        "Pregunta si considera necesario incluir alguna otra actividad, o si identificas alguna muy evidente, proponla. Entre las actividades de apoyo para la permanencia o retorno a actividades educativas o de formación se encuentran: acompañar a pedir informes a alguna institución educativa, apoyar y acompañar en el cumplimiento de requisitos para su inscripción en alguna actividad educativa o de formación, apoyar a investigar las opciones de formación disponibles que coincidan con sus intereses y restricciones temporales, etcétera.",
+                        "Comenta que esta lista estará abierta para incluir actividades adicionales si se van identificando más en las próximas semanas.",
+                        "Al finalizar agrega una imagen de la actividad 7 “Mi ruta educativa” a la Plataforma de Seguimiento.",
+                        "Establece un calendario para cada joven en la Plataforma de Seguimiento, sobre las actividades en que le acompañarás.",
+                        "Solicita a la persona joven que por cada actividad que haga individualmente obtenga algún formato que indique la comprobación de su asistencia como solicitar información en instituciones educativa o de formación, solicitudes de inscripción, confirmación de inscripción, documentos oficiales tramitados que fueron requeridos, etcétera.",
+                        "Registra en la Plataforma de Seguimiento los comprobantes de las actividades educativas realizadas.",
+                        "Recuérdale ir llenando la actividad 4 “Mi ruta de viaje” con los adhesivos, conforme se vaya avanzando por las estaciones (acciones) hasta llegar al destino final (metas) así como en “Mi itinerario de viaje”.",
+                        "Reporta en la Plataforma de Seguimiento las dificultades identificadas que no permitan cumplir con la meta temporal, así como lo necesario para cumplirla."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ En caso de que varios jóvenes que sean atendidos por la misma persona consejera necesiten el apoyo de tramitar un documento oficial igual, o alguna necesidad idéntica, la persona consejera podrá concretar una visita conjunta, en caso de coincidir en horarios. Por ejemplo, trámite de acta de nacimiento, identificación del INE, visita guiada laboral, etc."
+                    ]
+                }
+            ]
+        }
+       
+
+
+
+        
+    ]
+}

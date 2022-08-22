@@ -1,0 +1,89 @@
+{
+    "titulo" : "3.3 RUMBO A LA ESTACIÓN DE EMPLEO",
+    "tipo":"Actividad",
+    "vcrono" : 8,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Apoyar a las y los jóvenes para el cumplimiento de sus metas planteadas en la dimensión laboral de la actividad 6 “Mi ruta de viaje”, particularmente en las necesidades identificadas en la actividad 8 “Insumos para mi viaje”."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Tercera semana de la etapa 3.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "30 minutos.",
+            "Materiales": [
+                "De la libreta de actividades: <br>",
+                "– Actividad 4 (trabajada previamente) “Mi ruta de viaje” donde se establecen las necesidades identificadas para el cumplimiento de metas de la ruta “Empleo”. <br/>",
+                "– Actividad 5 “Mi lista de Insumos” de la libreta de actividades.<br/>",
+                "– Actividad 6 “Ruta laboral”. <br/>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Saluda, da la bienvenida y pregúntale a la joven o al joven cómo se encuentra.",
+                        "Deja un espacio de 5 minutos para preguntar cómo ha estado o si hay algún tema que se ha conversado vía contactos virtuales, aprovecha para dar seguimiento o comentarlo."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Hola [NOMBRE DE LA/DEL JOVEN], bienvenida/o la sesión de hoy.",
+                        "¿Cómo te ha ido desde la última conversación?, ¿quisieras platicar sobre algún tema en particular antes de iniciar? [Espacio para conversar (5 min. máximo)]"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Con base en lo establecido en la actividad 5“Mi lista de insumos”, identifica con la persona joven aquéllas que se definieron en la dimensión laboral.",
+                        "Apóyale a llenar el cuadro de la actividad 6 “Ruta laboral”, retomando lo realizado en la actividad “Mi lista de insumos”.",
+                        "Pregunta si considera necesario incluir alguna otra actividad, o si identificas alguna muy evidente, proponla.",
+                        "Entre las actividades de apoyo para la inserción laboral se encuentran: mejora de CV, simulacro de entrevista de trabajo, llenado de solicitud de trabajo, acompañamiento a la cita de entrevista, generar una cuenta y compartir su CV en plataformas en línea de bolsas de trabajo, acompañamiento a la llegada del primer día de trabajo, apoyo para generar un plan y horario del día para poder cumplir con las responsabilidades de trabajo, una vez ingresado, etcétera.",
+                        "Comenta que esta lista estará abierta para incluir actividades adicionales si se van identificando más en las próximas semanas.",
+                        "Al finalizar agrega una imagen de la actividad “Ruta laboral” a la Plataforma de Seguimiento.",
+                        "Establece un calendario en la Plataforma de Seguimiento para cada joven sobre las actividades en que le acompañarás.",
+                        "Identifica las dificultades o apoyos que requiera cada joven.",
+                        "Orienta a las y los jóvenes para que ubiquen bolsas de trabajo o ferias de empleo.",
+                        "Solicita a persona joven que en cada actividad que haga individualmente obtenga algún formato que indique la comprobación de asistencia a ferias de empleo, visitas laborales guiadas, registro de su CV en plataformas en línea de bolsas de trabajo, asistencia a entrevistas de trabajo, documentos oficiales tramitados requeridos, comprobante de inicio en una actividad laboral, etc. Felicítale en cada logro y agrega los comprobantes a la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ En caso de que varios jóvenes que sean atendidos por la misma persona consejera necesiten el apoyo de tramitar un documento oficial igual, o alguna necesidad idéntica, la persona consejera podrá concretar una visita conjunta, en caso de coincidir en horarios. Por ejemplo, trámite de acta de nacimiento, identificación del INE, visita guiada laboral, etc."
+                    ]
+                }
+            ]
+        }
+    ]
+}

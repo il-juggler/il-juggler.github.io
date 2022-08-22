@@ -1,0 +1,58 @@
+{
+    "titulo" : "3.5 AMPLIANDO MIS ACOMPAÑANTES DE VIAJE",
+    "tipo":"Actividad",
+    "vcrono" : 10,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Ofrecer opciones de incorporación en actividades lúdicas, deportivas, culturales, artísticas, entre otras, ofrecidas en su comunidad, que coincidan en los intereses del joven."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Cuarta semana de la etapa 3.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion": "60 Minutos",
+            "Materiales": [
+                "– Listado, directorio y horarios de actividades lúdicas, deportivas, culturales, artísticas disponibles en la comunidad la persona joven.",
+                "– Formato “Ampliando mis acompañantes de viaje” de los materiales de consejería.",
+                "– Mensaje de texto."
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Para cada joven, con base en los intereses previamente identificados, y considerando sus horarios y disponibilidad temporal, haz una propuesta de actividades disponibles en su comunidad.",
+                        "En caso de que la persona joven muestre interés en participar, comparte toda la información sobre dirección, persona encargada del grupo, días y horarios a los que puede acudir a pedir más informes.",
+                        "Si el joven te comenta un gran interés, hacer contacto con el grupo/persona encargada de la actividad para comentar que la/el joven tiene interés en integrarse y buscará mayores informes directamente en el grupo/institución, y gestionarle una cita.",
+                        "Registra las opciones que le interesaron en el formato “Ampliando mis acompañantes de viaje” e incorpóralo a la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "PantallaMovil",
+            "contenido" : [
+                "- Hola muy buen día!!! ☀️ [NOMBRE DE LA/DEL JOVEN]",
+                "<br>",
+                "- ¿Cómo va todo? 🙋🏻‍♀️🙋🏻‍♂️",
+                "<br>",
+                "- ¿Recuerdas que hablamos de tu interés en [ACTIVIDAD]?, pues he encontrado algunas opciones que me gustaría compartirte: [INFORMACIÓN DE LUGAR Y HORARIOS]",
+                "<br>",
+                "- Si estás interesada/o podemos agendar una visita para que conozcas el lugar."
+            ]
+        }
+
+
+
+        
+    ]
+}

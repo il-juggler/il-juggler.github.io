@@ -63,16 +63,10 @@ Portada.view = function () {
             m('a.is-info.is-outlined.button[href=./Cronograma del Modelo de Consejería.docx]', 'DESCARGAR CRONOGRAMA', m('i.icofont-download')),
             m('br'),
             m('br'),
-
-            m.trust(`
-            
-                <a href="./Libreta_de_actividades_JuventudES_08 agosto_2022.pdf" class="button is-info is-outlined">DESCARGAR LIBRETA DE ACTIVIDADES <i class="icofont-download"></i></a>
-                <br>
-                <br>
-                <a href="./Materiales de Consejería (para impresión) JuventudES_13 julio 2022 (2).pdf" class="button is-info is-outlined">DESCARGAR MANUAL PDF<i class="icofont-download"></i></a>
-                <br>
-                <br>
-            `)
+            m('a.button.is-info.is-outlined[href=./Libreta_de_actividades_JuventudES_08 agosto_2022.pdf]', 'DESCARGAR LIBRETA DE ACTIVIDADES', m('i.icofont-download')),
+            m('br'),
+            m('br'),
+            m('a.button.is-info.is-outlined[href=./Libreta_de_actividades_JuventudES_08 agosto_2022.pdf]', 'DESCARGAR LIBRETA DE ACTIVIDADES', m('i.icofont-download')),
         ])
     ])  
 }
@@ -103,9 +97,7 @@ Cronograma.BotonVolver = function () {
                 Cronograma.show = true
                 Cronograma.section = false
             }
-        }, [
-            'Volver al Cronograma'
-        ]),
+        }, 'Volver al Cronograma'),
     ])
 }
 
@@ -233,10 +225,8 @@ Manual.view = function(vnode) {
 
 
 Manual.displayFase = function (d, Enabled, val) {
-    if(Enabled) {
-        if(val != d.vcrono) return 
-    }
-
+    console.log(val, d.vcrono, d.id)
+    if(Enabled) if(val != d.vcrono) return;
     return m(Tipos.Fase, d, d.contenido)
 }
 
@@ -397,11 +387,12 @@ Consejos.view = function(vnode) {
 var ConversacionPresencial = {}
 Tipos.ConversacionPresencial = ConversacionPresencial
 ConversacionPresencial.view= function(vnode) {
-    return m('div', {style:'margin:20px'},[
+    return m('div', {style:'margin:20px'}, [
         m('div.elemento.ConversacionPresencial', {style:'background: #DCE0E9; border-radius:10px; padding:5px; margin:10px; border:3px solid #2E6784;'}, [
             vnode.attrs.titulo ? m('h3', vnode.attrs.titulo) : '',
             Manual.displayElements(vnode.children)
         ]),
+
         m('div.has-text-centered', [
             m('img', {style:'max-width:180px', src:'./naranjas/conversacion.png'}),
         ])

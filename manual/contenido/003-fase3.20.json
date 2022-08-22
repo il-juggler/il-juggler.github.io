@@ -1,0 +1,123 @@
+{
+    "titulo" : "3.2 INSUMOS PARA MI VIAJE",
+    "tipo":"Actividad",
+    "vcrono" : 7,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Identificar aquellos servicios, programas públicos, documentos oficiales a tramitar y otros apoyos proporcionados en su comunidad que apoyarán al joven a cumplir sus metas establecidas en el Mapa de Viaje."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "Segunda semana de la etapa 3.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "60 minutos.",
+            "Materiales": [
+                "– Actividad 4 (trabajada previamente) “Mi ruta de viaje” de la libreta de actividades.<br/>",
+                "– Actividad 5 “Mi lista de Insumos” de la libreta de actividades.<br/>",
+                "– Lápiz, pluma <br/>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                "En el periodo de preparación previo al inicio de la consejería, se deberá hacer un mapeo de los servicios que se llevan a cabo en la comunidad, por otros grupos o asociaciones relacionados con actividades deportivas, lúdicas, o culturales. A partir de la información recabada por todas las personas consejeras participantes se generará un directorio común donde se identifiquen los contactos, direcciones y horarios de dichas actividades. Este directorio podrá actualizarse o ampliarse según se requiera.",
+                {
+                    
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Saluda, da la bienvenida y pregúntale a la joven o al joven cómo se encuentra.",
+                        "Deja un espacio de 5 minutos para preguntar cómo ha estado o si hay algún tema que se ha conversado vía contactos virtuales, aprovecha para dar seguimiento o comentarlo."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Hola [NOMBRE DE LA/DEL JOVEN], bienvenida/o la sesión de hoy.",
+                        "¿Cómo te ha ido desde la última conversación?, ¿quisieras platicar sobre algún tema en particular antes de iniciar? [Espacio para conversar (5 min. máximo)]"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Mi lista de Insumos",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Utiliza la metáfora de los “insumos de viajes” para explicar que son aquellas cosas que necesitamos adquirir de un tercero, por ejemplo, comida, agua, medicinas, atención médica por algún imprevisto de enfermedad o accidente, cargar pila del celular, crédito en el celular, etc.",
+                        "A partir de los pasos previos identificados para alcanzar las metas a 6 meses realizados en la actividad 4 “Mi ruta de viaje”, guía a través de preguntas a la persona joven para identificar los apoyos que necesita para lograr cada acción (estación)."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "Hoy quiero hablarte a cerca de los “insumos de viajes” que son esos elementos que tienes que estar adquiriendo a lo largo de un viaje, sobre todo si este llevará tiempo. Es algo con lo que no contamos y que necesitamos adquirir de alguien más, por ejemplo, comida, agua, medicinas o atención médica por algún imprevisto de enfermedad o accidente, cargar pila del celular, crédito en el celular, etc.",
+                       "Ahora quiero pedirte que para tu propio viaje definamos los insumos que vas a necesitar.",
+                       "¿Qué necesitas para que cada acción sea cumplida?",
+                       "¿Cuál es el principal reto que identificas?",
+                       "De los retos que identificas, ¿necesitarás ayuda?, ¿qué ayuda específica necesitarás?",
+                       "¿Quién podría brindar esa ayuda?, ¿conoces a alguien o algún lugar, institución u organización que brinde ese servicio y que te ayude en cada aspecto particular?",
+                       "Establece estos apoyos en la actividad 8 “Mi lista de insumos” para cada dimensión de vida y establece la institución o persona que crees pueda apoyarte."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Mi lista de Insumos",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Guíale con el llenado de la actividad 5 “Mi lista de insumos”. Pueden hacerlo en conjunto, pero primero deja que haga el intento de llenarlo por sí misma/o.",
+                        "Si ves que se confunde, genera preguntas y si no responde a ellas, proponle una opción para llenar las diferentes celdas del formato.",
+                        "Definan los apoyos que le brindarás directamente ya sea que ella o él lo soliciten o si ves que no hay mucha fluidez, puedes proponer que tú lo puedes apoyar y preguntarle específicamente qué apoyo le gustaría que le brindaras.",
+                        "Habrá jóvenes que no necesitarán mucho apoyo y otros que necesitarán que les acompañes personalmente a realizar algún acción. Es importante que sean ellas o ellos los que definan ¿cómo les queda mejor tu acompañamiento? Si ves que no tienen claro la forma en que les convendría más tu apoyo, entonces tú lo propones, con base en el conocimiento que tienes sobre ella o él.",
+                        "Establece fechas para el acompañamiento en las diversas actividades definidas por cada joven, toma foto de la actividad y al finalizar agrega la imagen de la actividad 5 “Mi lista de insumos” a la Plataforma de Seguimiento.",
+                        "Para las actividades que no sean laborales, escolares o de formación, solicita a cada joven que conforme vaya recibiendo los diferentes servicios en la comunidad, te comparta una foto, archivo digital, reenvío de correo o algún documento que compruebe su asistencia al servicio, formato de inscripción, recordatorio de próxima cita, etcétera.",
+                        "Registra los comprobantes de servicios que están recibiendo, diferentes a servicios laborales y educativos o de formación, en la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "✓ En esta actividad es probable que los jóvenes no tengan conocimiento de que existen instituciones que pueden brindar los servicios que estén identificando, por ejemplo, escuelas abiertas donde no necesitan tener un horario “escolarizado”.",
+                       "✓ La meta principal de la consejería será guiar al joven para que él identifique la necesidad específica de apoyo.",
+                       "✓ Será fundamental el apoyo que de la persona consejera a las y los jóvenes en cuanto a las instituciones que pueden brindar el apoyo identificado y las opciones que se tienen.",
+                       "✓ Será muy importante utilizar el directorio de los servicios integrales que se ofertan en la comunidad, así como de servicios educativos y de formación."
+                    ]
+                }
+            ]
+        }
+    ]
+}

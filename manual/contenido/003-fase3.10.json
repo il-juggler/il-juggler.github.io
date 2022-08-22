@@ -1,0 +1,192 @@
+{
+    "titulo" : "3.1 MI RUTA DE VIAJE",
+    "tipo":"Actividad",
+    "id" : "3.1",
+    "vcrono" : 6,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Convertir las metas identificadas en la actividad 3.3 “Mi destino de viaje” en un plan de vida, que representará la ruta de viaje de cada joven."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Presencial",
+            "Cuando" : "DPrimera semana de la etapa 3.",
+            "Donde" : "Centro para jóvenes.",
+            "Duracion" : "60 minutos.",
+            "Materiales": [
+                "De la libreta de actividades. <br>",
+                "– Actividad 3.3 (realizada en la Etapa 2) “Mi destino de viaje”. <br/>",
+                "– Actividad 4 “Mi ruta de viaje” <br/>",
+                "– Formato 4.1 de adhesivos “Estaciones de metro/Actualizando el estado de mi viaje <br/>",
+                "– Actividad 4.2 “Mi itinerario de viaje” de la libreta de actividades. <br/>",
+                "– Lápiz con borrador, colores, pluma. <br/>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Saluda, da la bienvenida y pregúntale a la joven o al joven cómo se encuentra.",
+                        "Deja un espacio de 5 minutos para preguntar cómo ha estado o si hay algún tema que se ha conversado vía contactos virtuales, aprovecha para dar seguimiento o comentarlo."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Hola [NOMBRE DE LA/DEL JOVEN], bienvenida/o la sesión de hoy.",
+                        "¿Cómo te ha ido desde la última conversación?, ¿quisieras platicar sobre algún tema en particular antes de iniciar? [Espacio para conversar (5 min. máximo)]"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                "Por medio del diálogo, pregunta si la/el joven conoce qué es un itinerario de viaje y de acuerdo con su respuesta complementa, comenta o explica lo que es un itinerario de viaje. Aquí tienes un ejemplo:"
+            ]
+        },
+
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "¿Sabes qué es un itinerario de viaje? [espera su respuesta para explicar o complementar su información] Un itinerario de viaje es una herramienta que se usa para la organización de un viaje. Lo primero que se necesita definir es el destino o los destinos a donde quieres llegar, a partir de ahí se planifica la mejor ruta y dirección de viaje y se estima o definen los tiempos de traslado, por ejemplo.",
+                        "Hoy vamos a trabajar para que encuentres uno de los elementos más importantes de tu itinerario, la ruta que te llevará a todos los destinos que ya has venido trabajando."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Mi ruta de viaje (25 minutos)",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Con base en las metas generales planteadas en la actividad 3.3 “Mi destino de viaje”, indica a la joven o al joven que para cada vagón de dimensiones de vida elegirá una de las líneas de colores de la actividad 4 “Mi ruta de viaje”.",
+                        "Pide a la persona joven que ubique el nombre de la dimensión de vida que representa cada línea de metro y que en la estación final de cada línea escriba con lápiz las metas trabajadas en la actividad 3.3 “Mi destino de viaje”, iniciando por las metas más próximas (6 meses)., <ul><li>Se escribe con lápiz, para poder hacer modificaciones al momento de definir el orden de los pasos y priorización.</li></ul>",
+                        "Es importante considerar que se tendrán estaciones de “acciones” y estaciones “meta”. Las primeras representan los pasos previos identificados por las y las jóvenes para alcanzar la meta.",
+                        "A través de las siguientes preguntas, para las metas más próximas (6 meses), apoya a la persona joven a desglosar las acciones necesarias para alcanzar cada meta (destino) y establecerlos como estaciones para que la persona joven visualice el recorrido necesario para “llegar” a la estación final (meta)."
+                    ]
+                }
+            ]
+        },
+
+
+
+        {
+            "tipo" : "ConversacionPresencial",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "¿Qué necesitas para lograr esta meta?, ¿es posible desglosarla en pasos más pequeños?",
+                        "¿Cuál sería el orden de los pasos para lograr la meta?",
+                        "¿Cómo lo puedes hacer?",
+                        "¿Qué depende de ti?",
+                        "¿Qué pasos puedo trabajar desde hoy?"                    
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Guía al joven para responder la pregunta ¿Cómo convertir estos pasos en una ruta de viaje?"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Itinerario de viaje (20 minutos)",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Ahora dile que vayan a la actividad 4.2 “Mi itinerario de viaje” de su libreta de actividades para establecer de cada estación de la actividad 6 “Mi ruta de viaje”, los plazos y tiempo de cumplimiento, así como espacios para evaluar, el tiempo de llegada, el estatus de la meta y definirla como alcanzada, o en caso de no alcanzarla, establecer la necesidad para alcanzarla y redefinir la fecha de cumplimiento.",
+                        "Ya que se tenga el orden final de las acciones (estaciones) y metas (destino), explica a la persona joven que los adhesivos “Estación alcanzada” se irán agregando conforme vaya realizando las acciones que anotó en cada estación, de modo que coincida el color de la estación con el color de la línea de la ruta para cada dimensión de vida.",
+                        "Considera que, dependiendo del proceso de cada joven, algunas metas o acciones pueden tener un cambio ya sea porque se planteé en una diferente dirección, o esté pendiente por causas que no dependen de la persona joven. Si así llegase a pasar, esto se documentará en “Mi itinerario de viaje” y se hará de manera visual en “Mi ruta de viaje” utilizando los diferentes adhesivos de “Actualizando el estado de mi viaje”. Hazle saber esto.",
+                        "Aspectos que podrían resaltarse en la reflexión final:"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "style" : {"backgroundColor": "gray"}, 
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "El mapa de viaje inicial puede tener cambios, según las experiencias en el camino, sin embargo, tener un mapa te da rumbo y dirección para no rendirte ante las dificultades o situaciones no esperadas que se presenten.",
+                        "En todo viaje pueda pasar de todo, lo positivo nos da fuerzas para seguir en los acontecimientos difíciles, dolorosos o confusos.",
+                        "Lo negativo o retos se pueden convertir en el origen de nuestro mayor crecimiento, aprendizaje y conocimiento, incluso en el descubrimiento de una/uno mismo.",
+                        "Salir de nuestra \"zona de confort\" nos hace ir más allá de lo que pensamos que podemos, y nos hace descubrir la fuerza que llevamos dentro y lo que somos capaces de hacer y superar."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Al finalizar agrega los formatos y las imágenes de la actividad a la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "✓ Es importante apoyar a la persona joven a centrarse en metas principales, y a partir de ahí, en los pasos para cumplirlas.",
+                       "✓ Mientras más metas se tienen, más complicado será alcanzarlas en los tiempos definidos. Es fundamental que vayan experimentando la experiencia de logro o éxito en los pasos pequeños.",
+                       "✓ Evitar la experiencia de “no logro” a partir de una planeación y seguimiento puntual. Cuando se presenten, aprovechar la experiencia como aprendizaje para identificar cómo pudo haberse logrado: ¿qué pude haber hecho diferente?, ¿me faltó planeación?, ¿comuniqué a tiempo mis necesidades de apoyo?, ¿estuve distraído por alguna situación en particular? Y éstas vayan siendo experiencias a partir de las cuales pueda tener herramientas de solución de problemas cuándo se vuelva a presentar algo similar que impediría el cumplimiento de la meta o el avance en las estaciones.",
+                       "✓ Será importante que constantemente se vayan revisando las fechas cercanas para el cumplimiento de metas y preguntar el apoyo requerido o la dificultad que pueda presentarse, para dar un apoyo oportuno y logre la mayor cantidad de metas cumplidas en tiempo y forma.",
+                       "✓ En el siguiente video, se muestra de manera breve la metodología “SMART” para establecimiento de metas. (32) Como establecer METAS y OBJETIVOS (Método SMART 2022) - YouTube"
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

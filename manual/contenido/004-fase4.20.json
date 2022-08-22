@@ -1,0 +1,63 @@
+{
+    "titulo" : "4.2 ¿ME HACE FALTA ALGO PARA CONTINUAR EL VIAJE?",
+    "tipo":"Actividad",
+    "vcrono" : 18,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Hacer reconocible para la persona joven el inicio de una nueva Etapa en la que el viaje no ha terminado, sino que es el momento para revisar avances y dar continuidad a las metas fijadas ya sea de empleo o de educación."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Virtual",
+            "Cuando" : "A los dos meses de haber concluido la Etapa 3, aproximadamente en la semana 18 de inicio de su participación en el programa.",
+            
+            "Duracion" : "Según las necesidades reportadas, será el tiempo que requiera destinarse para el acompañamiento.",
+            "Materiales": [
+                "– Mensaje de texto o audio con indicaciones.<br>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "Utilizando el ejemplo, envía un mensaje vía WhatsApp, correo electrónico, mensaje SMS o presenta la información vía llamada telefónica, dependiendo de la vía de comunicación acordada o que esté disponible para cada joven.",
+                        "Anota en la Plataforma de Seguimiento las necesidades reportadas por cada joven a tu cargo, así como el seguimiento y fecha de resolución."
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo" : "PantallaMovil",
+            "contenido" : [
+                "- ¡Hola! Espero que te encuentres muy bien [NOMBRE DE LA/DEL JOVEN]",
+                "<br>",
+                "- Te escribo para que me platiques qué es lo que te ha gustado más sobre [META QUE YA SE HAYA CUMPLIDO]",
+                "<br>",
+                "- ¿Tienes algún pendiente por resolver para [META POR CUMPLIR]?",
+                "<br>",
+                "- Ya sabes que aquí estoy y podemos dar seguimiento a cualquier pendiente de tu mapa de viaje."
+            ]
+        },
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Mantener una retroalimentación constante con las y los jóvenes sobre las alternativas para solucionar cualquier obstáculo que pudiera poner en riesgo el cumplimiento de sus metas."
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

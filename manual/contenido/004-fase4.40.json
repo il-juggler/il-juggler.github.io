@@ -1,0 +1,85 @@
+{
+    "titulo" : "4.4 RECONOCIENDO LOS APRENDIZAJES Y LOGROS MÁS IMPORTANTES DE MI VIAJE",
+    "tipo":"Actividad",
+    "vcrono" : 26,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Generar reflexiones finales al cierre del programa que permitan valorar los procesos emprendidos, la superación de retos y los logros alcanzados."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Virtual",
+            "Cuando" : "El día que se contacte al joven, se dará un plazo de hasta 3 días para que la/el joven realice la actividad y envíe el producto solicitado (listado que se describe más adelante).",
+            
+            "Materiales": [
+                "– Organizar una sesión por videollamada con el grupo de jóvenes a quienes se acompañó.<br>",
+                "– Formato de “Carta de bienvenida a tu destino”."
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "Envía un mensaje vía WhatsApp, correo electrónico, mensaje SMS o presenta la información vía llamada telefónica, dependiendo de la vía de comunicación acordada o que esté disponible con cada joven, para acordar una reunión grupal por videollamada con las y los jóvenes que estuviste acompañando."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo" : "PantallaMovil",
+            "contenido" : [
+                "- Hola [NOMBRE DE LA/EL JOVEN]",
+                "<br>",
+                "- ¿Recuerdas los vagones donde identificaste las personas de tu familia, amigos, vecinos, compañeros de escuela o trabajo, conocidos y desconocidos en cada uno de ellos?",
+                "<br>",
+                "- Vamos a seguir pensando en tu viaje y te quiero pedir si pudieras seleccionar a una persona en cada uno de los vagones. Aquella persona que no podría faltar para que tu viaje sea más feliz y te ayude a cumplir tus metas.",
+                "<br>",
+                "<img src='./naranjas/fase4-vagones.png'>"
+            ]
+        },
+
+       
+        {
+            "tipo" : "ParrafoTitulado",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "Llegada la reunión virtual, da una afectuosa bienvenida a las y los participantes y explica el objetivo de la sesión.",
+                        "Solicítales que intercambien sus valoraciones personales sobre sus aprendizajes adquiridos en el Programa JuventudES.",
+                        "Realiza una dinámica donde cada quien describa la característica más positiva sobre otra u otro joven participante.",
+                        "Al finalizar la reunión haz llegar la “Carta de bienvenida a tu destino” por el medio de comunicación que hayas estado utilizando con cada una/o.",
+                        "Finalmente, realiza una última valoración sobre los avances de cada joven e incorpórala en la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓ Propiciar una comunicación muy emotiva que reconozca el papel de la persona joven al definir sus metas y su dedicación para lograrlas.",
+                        "✓ Complementar positivamente la caracterización de cada joven si a la persona que le tocó hablar de ella/él tuvo dificultades para realizarla.",
+                        "✓ Cuidar que cada joven se lleve el reconocimiento de su esfuerzo y avance durante su participación en el Programa."
+
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

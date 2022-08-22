@@ -1,0 +1,94 @@
+{
+    "titulo" : "4.3 ¿QUIÉNES QUIERO QUE SEAN MIS ACOMPAÑANTES ESPECIALES DE VIAJE EN EL FUTURO Y CÓMO ME GUSTARÍA QUE FUERA LA COMUNICACIÓN CON ELLOS?",
+    "tipo":"Actividad",
+    "vcrono" :22,
+    "contenido" : [
+        { 
+            "tipo":"ParrafoTitulado", 
+            "titulo":"¿Cuál es el objetivo?", 
+            "parrafoObjetivo" : true,
+            "texto": "Identificar las figuras de mentoría que el/la joven reconozca en cada uno de sus círculos más cercanos (vagones)."
+        },
+        {
+            "tipo" : "TablaGuia",
+            "Como" : "Contacto Virtual",
+            "Cuando" : "El día que se contacte al joven, se dará un plazo de hasta 3 días para que la/el joven realice la actividad y envíe el producto solicitado (listado que se describe más adelante).",
+            
+            "Materiales": [
+                "– Mensaje de texto o audio con indicaciones.<br>",
+                "– Actividad 9 “Mis acompañantes especiales” de la libreta de actividades.<br>",
+                "– Actividad 10 “Listado de aprendizajes” de la libreta de actividades."
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "Indicaciones para la persona consejera",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "Envía un mensaje vía WhatsApp, correo electrónico, mensaje SMS o presenta la información vía llamada telefónica, dependiendo de la vía de comunicación acordada o que esté disponible para cada joven.",
+                       "Con base en el siguiente ejemplo, comparte las indicaciones para trabajar la Actividad 9 “Ampliando mis acompañantes de viaje” de su libreta de actividades."
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo" : "PantallaMovil",
+            "contenido" : [
+                "-  -Hola, qué gusto saludarte nuevamente, ¡te deseo un feliz día!",
+                "<br>",
+                "- ¿Recuerdas los vagones donde identificaste las personas de tu familia, amigos, vecinos, compañeros de escuela o trabajo, conocidos y desconocidos en cada uno de ellos?",
+                "<br>",
+                "- Vamos a seguir pensando en tu viaje y te quiero pedir si pudieras seleccionar a una persona en cada uno de los vagones. Aquella persona que no podría faltar para que tu viaje sea más feliz y te ayude a cumplir tus metas.",
+                "<br>",
+                "<img src='./naranjas/fase4-vagones.png'>"
+            ]
+        },
+
+        {
+            "tipo" : "ParrafoTitulado", 
+            "titulo" : "",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                       "Valora de acuerdo con la disponibilidad de tiempo de la persona joven si esta actividad se lleva a cabo de forma virtual o presencial.",
+                       "En conjunto con la joven o el joven y con base en el proceso y experiencia durante la consejería, pídele que en la actividad 10 de su libreta de actividades, hagan juntos/as una lista de los aprendizajes obtenidos.",
+                       "Pide que envíe fotografías de la actividad. Incorpora las imágenes y comentarios en la Plataforma de Seguimiento."
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo" : "PantallaMovil",
+            "contenido" : [
+                "-Ahora, pensando en la comunicación que hemos tenido tú y yo, hagamos una lista de las cosas que nos parezcan más positivas y de aquellas que hemos aprendido para mejorar.",
+                "<br>",
+                "-Usa el formato 10 de tu libreta de actividades",
+                "<br>",
+                "<img src='./naranjas/fase4-tablas.png'>",
+                "<br>",
+                "- Y en donde lo que está escrito en la lista podrías practicar con tus acompañantes especiales en cada vagón.",
+                "<br>",
+                "- ¿Qué opinas?"
+            ]
+        },
+
+
+        {
+            "tipo":"Consejos", 
+            "titulo":"Recomendaciones para la persona consejera:",
+            "contenido" : [
+                {
+                    "tipo" : "Lista",
+                    "elementos" : [
+                        "✓Compartir los materiales por medio de una imagen para que pueda ubicarlos en su libreta con mayor facilidad y realizar las actividades."
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

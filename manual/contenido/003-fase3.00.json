@@ -11,11 +11,11 @@
                 {"imagen":"./naranjas/virtual.png","titulo":"CONTACTO VIRTUAL", "texto": "(5) Ampliando mis acompañantes de viaje"},
                 {"imagen":"./naranjas/metas.png","titulo":"METAS", "contenido": [
                      
-                        "<strong>3.1</strong> Acompañar la implementación del Plan de Vida.",
-                        "<strong>3.2</strong> Desarrollar los vínculos con servicios y programas públicos que apoyen el Plan de Vida en todas las áreas, incluyendo empleo y educación.",
-                        "<strong>3.3</strong> Brindar las facilidades para los trámites de documentos oficiales necesarios para el seguimiento del Plan de Vida.",
-                        "<strong>3.4</strong> Identificar y apoyar la construcción de vínculos sanos, seguros y cercanos en su familia, pares y comunidad.",
-                        "<strong>3.5</strong> Lograr la incorporación a un empleo o reincorporación a los estudios del/de la joven.",
+                        "<strong>3.1</strong> Acompañar la implementación del Plan de Vida.<br/>",
+                        "<strong>3.2</strong> Desarrollar los vínculos con servicios y programas públicos que apoyen el Plan de Vida en todas las áreas, incluyendo empleo y educación.<br/>",
+                        "<strong>3.3</strong> Brindar las facilidades para los trámites de documentos oficiales necesarios para el seguimiento del Plan de Vida.<br/>",
+                        "<strong>3.4</strong> Identificar y apoyar la construcción de vínculos sanos, seguros y cercanos en su familia, pares y comunidad.<br/>",
+                        "<strong>3.5</strong> Lograr la incorporación a un empleo o reincorporación a los estudios del/de la joven.<br/>",
                         "<strong>3.6</strong> Dar el espacio y seguimiento para la revaloración del Plan de Vida por parte de la persona joven."
                     ] 
                 },
@@ -24,11 +24,11 @@
                     "titulo":"PRODUCTOS REQUERIDOS",
                     "contenido" : [
 
-                        "✓ Registro de servicios a los que se vinculó a la persona joven.",
-                        "✓ Registro de visitas a ferias de trabajo a las que asistió la persona joven.",
-                        "✓ Registro de entrevistas/inicio de actividades de trabajo.",
-                        "✓ Documento que sirva como evidencia de la incorporación al empleo o reincorporación a los estudios.",
-                        "✓ Registro de integración a grupos con actividades lúdicas, deportivas, artísticas.",
+                        "✓ Registro de servicios a los que se vinculó a la persona joven.</br>",
+                        "✓ Registro de visitas a ferias de trabajo a las que asistió la persona joven.</br>",
+                        "✓ Registro de entrevistas/inicio de actividades de trabajo.</br>",
+                        "✓ Documento que sirva como evidencia de la incorporación al empleo o reincorporación a los estudios.</br>",
+                        "✓ Registro de integración a grupos con actividades lúdicas, deportivas, artísticas.</br>",
                         "✓ Registro de revaloración de Plan de Vida."
                     ]
                 },
@@ -36,16 +36,16 @@
                     "imagen":"./naranjas/herramientas.png",
                     "titulo":"HERRAMIENTAS",
                     "contenido" : [
-                        "✓ Contactos virtuales para envío de alguna actividad previa o revisión de algún materialcorto y sencillo (video, imagen, reflexión) para trabajar con la persona joven previo a las citas.",
-                        "✓ Lista de opciones de escolarización para continuar estudios.",
-                        "✓ Lista o concentrado de servicios para jóvenes disponibles en las comunidades.",
-                        "✓ Lista de grupos de jóvenes y actividades lúdicas, deportivas y artísticas disponibles en la comunidad.",
-                        "✓ “Ampliando mis acompañantes de viaje” de los materiales de consejería. De la libreta de actividades:",
-                        "✓ Actividad 4 “Mi ruta de viaje”.",
-                        "✓ Formato 4.1 de adhesivos “Estaciones de metro/Actualizando el estado de mi viaje”.",
-                        "✓ Actividad 4.2 “Mi itinerario de viaje”. ",
-                        "✓ Actividad 5 “Mi lista de Insumos”. ",
-                        "✓ Actividad 6 “Ruta laboral”. ",
+                        "✓ Contactos virtuales para envío de alguna actividad previa o revisión de algún materialcorto y sencillo (video, imagen, reflexión) para trabajar con la persona joven previo a las citas.<br/>",
+                        "✓ Lista de opciones de escolarización para continuar estudios.<br/>",
+                        "✓ Lista o concentrado de servicios para jóvenes disponibles en las comunidades.<br/>",
+                        "✓ Lista de grupos de jóvenes y actividades lúdicas, deportivas y artísticas disponibles en la comunidad.<br/>",
+                        "✓ “Ampliando mis acompañantes de viaje” de los materiales de consejería. De la libreta de actividades:<br/>",
+                        "✓ Actividad 4 “Mi ruta de viaje”.<br/>",
+                        "✓ Formato 4.1 de adhesivos “Estaciones de metro/Actualizando el estado de mi viaje”.<br/>",
+                        "✓ Actividad 4.2 “Mi itinerario de viaje”. <br/>",
+                        "✓ Actividad 5 “Mi lista de Insumos”. <br/>",
+                        "✓ Actividad 6 “Ruta laboral”. <br/>",
                         "✓ Actividad 7 “Ruta educativa”."
                     ]
                 }
