@@ -201,14 +201,16 @@ Manual.view = function(vnode) {
            m('.columns', [
                 m('.column.is-hidden-mobile.is-one-quarter', [
 
-                    m('h5', 'Indice'),
-
-                    ElementosDelMenu0.map(el => {
-                        return m('div', [
-                            m('a', {href: el[1]}, el[0])
-                        ])
-                    }),
+                
                     m('div', {'style':'position:fixed;border-left:10px solid #D66B31'}, [
+                        m('h5', 'Indice'),
+
+                        ElementosDelMenu0.map(el => {
+                            return m('div', [
+                                m('a', {href: el[1]}, el[0])
+                            ])
+                        }),
+                        
                         ElementosDelMenu.map(el => {
                             let style = {
                                 'background-color' :  el.bgColor,
