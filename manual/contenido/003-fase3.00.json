@@ -7,8 +7,19 @@
             "tipo": "tablaPrincipal",
             "filas" : [
                 {"imagen":"./naranjas/duracion.png","titulo":"DURACIÓN", "texto": "5 semanas (durante las primeras cuatro semanas del taller formativo)."},
-                {"imagen":"./naranjas/presencial.png","titulo":"CONTACTO PRESENCIAL", "texto": "(1) ¡El primer encuentro!"},
-                {"imagen":"./naranjas/virtual.png","titulo":"CONTACTO VIRTUAL", "texto": "(5) Ampliando mis acompañantes de viaje"},
+                {
+                    "imagen":"./naranjas/presencial.png",
+                    "titulo":"CONTACTO PRESENCIAL", 
+                    "contenido": [
+                        "<strong>(1)</strong> Ruta de viaje.<br>",
+                        "<strong>(2)</strong> Insumos para mi viaje.<br>",
+                        "<strong>(3)</strong> Rumbo a la estación de Empleo.<br>",
+                        "<strong>(4)</strong> Rumbo a la estación Educativa."
+                        
+                    ]
+                },
+
+                {"imagen":"./naranjas/virtual.png","titulo":"CONTACTO VIRTUAL", "contenido": "<strong>(5)</strong> Ampliando mis acompañantes de viaje"},
                 {"imagen":"./naranjas/metas.png","titulo":"METAS", "contenido": [
                      
                         "<strong>3.1</strong> Acompañar la implementación del Plan de Vida.<br/>",
@@ -40,7 +51,8 @@
                         "✓ Lista de opciones de escolarización para continuar estudios.<br/>",
                         "✓ Lista o concentrado de servicios para jóvenes disponibles en las comunidades.<br/>",
                         "✓ Lista de grupos de jóvenes y actividades lúdicas, deportivas y artísticas disponibles en la comunidad.<br/>",
-                        "✓ “Ampliando mis acompañantes de viaje” de los materiales de consejería. De la libreta de actividades:<br/>",
+                        "✓ “Ampliando mis acompañantes de viaje” de los materiales de consejería.<br>", 
+                        "De la libreta de actividades:<br/>",
                         "✓ Actividad 4 “Mi ruta de viaje”.<br/>",
                         "✓ Formato 4.1 de adhesivos “Estaciones de metro/Actualizando el estado de mi viaje”.<br/>",
                         "✓ Actividad 4.2 “Mi itinerario de viaje”. <br/>",

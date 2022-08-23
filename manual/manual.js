@@ -45,13 +45,13 @@ var DatosCronograma = [
    }
 ];
 
-var Portada = {};
+var PortadaC = {};
 
-Portada.view = function () {
+PortadaC.view = function () {
     return m('div#Portada.mt-2.pb-2.mb-2', [
         m(".section.m-4.pt-6.p-4", [
-            m('.box', [
-                m('img[src="./a.jpg"]')
+            m('.box.has-text-centered', {style:{maxHeight:"520px"}}, [
+                m('img[src="./a.jpg"]',{style:{maxHeight:"480px"}} )
             ])
         ]),
 
@@ -175,11 +175,24 @@ Cronograma.view = function() {
     ])
 }
 
-ElementosDelMenu = [
-    {'texto':'Fase 1', 'bgColor':'#588AA3', href:'#Fase1'},
-    {'texto':'Fase 2', 'bgColor':'#3C538C', href:'#Fase2'},
-    {'texto':'Fase 3', 'bgColor':'#28365C', href:'#Fase3'},
-    {'texto':'Fase 4', 'bgColor':'#111737', href:'#Fase4'},
+
+var ElementosDelMenu0 = [
+    ['GLOSARIO','#Glosario'],
+    ['I. INTRODUCCIÓN GENERAL','#introduccion'],
+    ['II. MARCO NORMATIVO: UNA MIRADA A LAS JUVENTUDES DESDE EL ENFOQUE DE DERECHOS', "#marco-normativo"],
+    ['III. VISIÓN Y EXPERIENCIA DE LA FUNDACIÓN INTERNACIONAL POR LA JUVENTUD (IYF)', "#vision"],
+    ['IV. JUSTIFICACIÓN DEL MODELO',"#justificacion"],
+    ['V. ACTITUDES CLAVE HACIA LAS Y LOS JÓVENES DESDE UNA BUENA CONSEJERÍA', "#actitudes-clave"],
+    ['VI. ESTRUCTURA ORGANIZACIONAL DEL PROGRAMA JUVENTUDES', "#estructura-org"],
+    ['VII. ETAPAS DEL MODELO DE CONSEJERÍA',"#etapas-del-modelo"]
+  
+]
+
+var ElementosDelMenu = [
+    {'texto':'Etapa 1', 'bgColor':'#588AA3', href:'#Fase1'},
+    {'texto':'Etapa 2', 'bgColor':'#3C538C', href:'#Fase2'},
+    {'texto':'Etapa 3', 'bgColor':'#28365C', href:'#Fase3'},
+    {'texto':'Etapa 4', 'bgColor':'#111737', href:'#Fase4'},
 ]
 
 Manual.view = function(vnode) {
@@ -187,6 +200,14 @@ Manual.view = function(vnode) {
         m('div.content', [
            m('.columns', [
                 m('.column.is-hidden-mobile.is-one-quarter', [
+
+                    m('h5', 'Indice'),
+
+                    ElementosDelMenu0.map(el => {
+                        return m('div', [
+                            m('a', {href: el[1]}, el[0])
+                        ])
+                    }),
                     m('div', {'style':'position:fixed;border-left:10px solid #D66B31'}, [
                         ElementosDelMenu.map(el => {
                             let style = {
@@ -210,7 +231,7 @@ Manual.view = function(vnode) {
                 ]),
 
                 m('.column.is-full-mobile.is-three-quarters-tablet', [
-                    m(Portada),
+                    m(PortadaC),
                     Cronograma.section == false ? Cronograma.Boton() : null,
                     Cronograma.show && Cronograma.section == false ? m(Cronograma) : '',
                     Cronograma.show && Cronograma.section == false ?  Cronograma.Boton() : '',
@@ -225,9 +246,9 @@ Manual.view = function(vnode) {
 
 
 Manual.displayFase = function (d, Enabled, val) {
-    console.log(val, d.vcrono, d.id)
+    let tipo = Tipos[d.tipo];
     if(Enabled) if(val != d.vcrono) return;
-    return m(Tipos.Fase, d, d.contenido)
+    return m(tipo, d, d.contenido)
 }
 
 Manual.displayElement = function(elemento, Enabled, valor) {

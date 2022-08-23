@@ -7,14 +7,21 @@
             "tipo": "tablaPrincipal",
             "filas" : [
                 {"imagen":"./naranjas/duracion.png","titulo":"DURACIÓN", "texto": "3 semanas (durante el taller formativo)."},
-                {"imagen":"./naranjas/presencial.png","titulo":"CONTACTO PRESENCIAL", "texto": "(1) ¡El primer encuentro!"},
+                {"imagen":"./naranjas/presencial.png","titulo":"CONTACTO PRESENCIAL", 
+                    "contenido": [
+                        "<strong>(1)</strong> Planeando mi viaje...<br>",
+                        "<strong>(2)</strong> Los vagones y mis acompañantes de viaje.<br>",
+                        "<strong>(3)</strong> Mi destino de viaje y sus escalas."
+                    ]
+                },
             
                 {"imagen":"./naranjas/metas.png","titulo":"METAS", "contenido": [
-                       "<strong>2.1</strong> Identificar factores de riesgo y protección del contexto.",
-                       "<strong>2.1.1</strong> Identificar los intereses formativos, educativos y laborales.",
-                       "<strong>2.2</strong> Seguir construyendo la relación de confianza entre la persona consejera y la persona joven.",
-                       "<strong>2.2.1.</strong> Desarrollar el proceso de reconocimiento de fortalezas.",
-                       "<strong>2.3</strong> Identificar expectativas y aspiraciones sobre el futuro."
+                       "<strong>2.1</strong> Identificar factores de riesgo y protección del contexto. <br>",
+                       "<strong>2.1.1</strong> Identificar los intereses formativos, educativos y laborales. <br>",
+                       "<strong>2.2</strong> Seguir construyendo la relación de confianza entre la persona consejera y la persona joven. <br>",
+                       "<strong>2.2.1.</strong> Desarrollar el proceso de reconocimiento de fortalezas. <br>",
+                       "<strong>2.3</strong> Identificar expectativas y aspiraciones sobre el futuro.<br>",
+                       "<strong>2.3.1</strong> Comenzar su Plan de Vida y mejora de su identidad positiva.<br>"
                     ] 
                 },
                 {
@@ -30,16 +37,17 @@
                     "imagen":"./naranjas/herramientas.png",
                     "titulo":"HERRAMIENTAS",
                     "contenido" : [
-                        "✓ Contactos virtuales para seguimiento y apoyo en el desarrollo del taller. De los materiales para la persona consejera:",
-                        "✓ Preguntas poderosas “La bolsa de las preguntas”",
-                        "✓ Tarjetas “Lo importante para mí” De la libreta de actividades:",
-                        "✓ Actividad 1 “Mi estación de inicio ¿dónde estoy?”",
-                        "✓ Actividad 2 “Los vagones”",
-                        "✓ Actividad 2.1 “Mis acompañantes de viaje”",
-                        "✓ Actividad 2.2 “Mi mochila para el viaje, ¿qué llevo conmigo?”",
-                        "✓ Actividad 3 “Definiendo mi destino de viaje... mis sueños, mi futuro a 6 meses”",
-                        "✓ Actividad 3.1 “Definiendo a 1 año”",
-                        "✓ Actividad 3.2 “Definiendo a 3 años”",
+                        "✓ Contactos virtuales para seguimiento y apoyo en el desarrollo del taller. <br>",
+                        "De los materiales para la persona consejera: <br>",
+                        "✓ Preguntas poderosas “La bolsa de las preguntas” <br>",
+                        "✓ Tarjetas “Lo importante para mí” De la libreta de actividades: <br>",
+                        "✓ Actividad 1 “Mi estación de inicio ¿dónde estoy?” <br>",
+                        "✓ Actividad 2 “Los vagones” <br>",
+                        "✓ Actividad 2.1 “Mis acompañantes de viaje” <br>",
+                        "✓ Actividad 2.2 “Mi mochila para el viaje, ¿qué llevo conmigo?” <br>",
+                        "✓ Actividad 3 “Definiendo mi destino de viaje... mis sueños, mi futuro a 6 meses” <br>",
+                        "✓ Actividad 3.1 “Definiendo a 1 año” <br>",
+                        "✓ Actividad 3.2 “Definiendo a 3 años” <br>",
                         "✓ Actividad 3.3 “Mi destino de viaje”"
                     ]
                 }
