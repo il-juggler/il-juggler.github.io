@@ -35,7 +35,11 @@ content.fase1 = [
     require('./contenido/004-fase4.10.json'),
     require('./contenido/004-fase4.20.json'),
     require('./contenido/004-fase4.30.json'),
-    require('./contenido/004-fase4.40.json')
+    require('./contenido/004-fase4.40.json'),
+
+
+    require('./contenido/100-001-001-recursos.json'),
+    require('./contenido/100-001-002-bibliografia.json')
 ]
 
 fs.writeFileSync('./contenido.js', 'window.contenido = '.concat(JSON.stringify(content.fase1)) )

@@ -1,0 +1,96 @@
+{
+    "titulo" : "VIII. RECURSOS DISPONIBLES PARA LA PERSONA CONSEJERA",
+    "id":"recursos-disponibles",
+    "tipo":"Fase",
+    "contenido" : [
+        "<h5>¿Qué es el Enfoque de Desarrollo Positivo Juvenil (PYD por sus siglas en inglés)?</h5>",
+        {
+            "tipo" : "TablaVinculos",
+            "elementos" : [
+                [
+                    "Positive Youth Development | YouthPower.",
+                    "https://www.youthpower.org/positive-youth-development"
+                ],
+                [
+                    "Kit de herramientas de medición del desarrollo positivo de la juventud. Guía práctica para implementadores de programas para jóvenes."      ,
+                    "https://www.youthpower.org/sites/default/files/YouthPower/files/resources/Kit%20De%20Herramietntas%20De%20Medic%C3%B3 n%20Edici%C3%B3n%20Del%20Desarrollo%20Positivo%20De%2 0La%20Juventud.pdf"
+                ],
+                [
+                    "Itinerario para organizaciones a favor de los jóvenes: Desarrollo Juvenil.",
+                    "http://itinerariosparaorganizaciones.com/desarrollo_positivo.php"
+                ],
+                [
+                    "Desarrollo positivo adolescente.",
+                    "https://bienvenidoalaburbuja.com/que-es-desarrollo-positivo- adolescente/"
+                ],
+                [
+                    "Desarrollo positivo adolescente y los activos que lo promueven: un estudio en centros docentes andaluces.",
+                    "http://www.codajic.org/sites/default/files/sites/www.codajic.org/f iles/desarrolloPositivo.pdf"
+                ],
+                [
+                    "El desarrollo positivo en la adolescencia: aportes para la educación.",
+                    "http://www.educacioiadolescencia.udl.cat"
+                ],
+                [
+                    "Desarrollo positivo juvenil. Banco virtual de recursos educativos.",
+                    "https://campusvirtual.mineduc.gob.gt/taxonomy/term/237"
+                ]
+            ]
+        },
+        "<h5>¿Qué son las preguntas poderosas?</h5>",
+        {
+            "tipo" : "TablaVinculos",
+            "elementos" : [
+                [
+                    "51 Powerful Questions to Ask in Different Situations, and The Art of Asking Powerful Questions",
+                    "https://www.deployyourself.com/deploy-yourself/asking-powerful- questions-51-different-situations/"
+                ],
+                [
+                    "Powerful Questions",
+                    "https://www.lwv.org/sites/default/files/2018- 07/Powerful%20Questions.LWV%20DEI%20Training%20Resource.pdf"   
+                ],
+                [
+                    "73 poderosas preguntas de coaching para hacerles a sus clientes",
+                    "https://positivepsychology.com/coaching-questions/"   
+                ],
+                [
+                    "164 Powerful questions to deploy yourself", 
+                    "https://www.deployyourself.com/newsletter/ "    
+                ],
+                [
+                    "11 herramientas de coaching para alcanzar metas", 
+                    "https://amayaco.com/blog/herramientas-de-coaching"
+                ]
+               
+            ]
+        },
+
+
+
+        "<h5>¿Cómo hacer entrevistas motivacionales?</h5>",
+
+        {
+            "tipo" : "TablaVinculos",
+            "elementos" : [
+                [
+                    "Explicación de la capacitación en entrevistas motivacionales: los 14 mejores cursos",
+                    "https://positivepsychology.com/motivational-interviewing- training/"
+                ],
+                [
+
+                    "10 herramientas fundamentales de la entrevista motivacional",
+                    "https://psicoterapiaserendipia.com/entrevista-motivacional/"
+                   
+        
+                ],
+                [
+                    "La entrevista motivacional: ayudar a las personas a cambiar",
+                    "http://itinerariosparaorganizaciones.com/desarrollo_positivo.php"
+                ]
+            ]
+        }
+        
+    ]
+}
+
+

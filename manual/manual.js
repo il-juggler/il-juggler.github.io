@@ -178,13 +178,13 @@ Cronograma.view = function() {
 
 var ElementosDelMenu0 = [
     ['GLOSARIO','#Glosario'],
-    ['I. INTRODUCCIÓN GENERAL','#introduccion'],
-    ['II. MARCO NORMATIVO: UNA MIRADA A LAS JUVENTUDES DESDE EL ENFOQUE DE DERECHOS', "#marco-normativo"],
-    ['III. VISIÓN Y EXPERIENCIA DE LA FUNDACIÓN INTERNACIONAL POR LA JUVENTUD (IYF)', "#vision"],
-    ['IV. JUSTIFICACIÓN DEL MODELO',"#justificacion"],
-    ['V. ACTITUDES CLAVE HACIA LAS Y LOS JÓVENES DESDE UNA BUENA CONSEJERÍA', "#actitudes-clave"],
-    ['VI. ESTRUCTURA ORGANIZACIONAL DEL PROGRAMA JUVENTUDES', "#estructura-org"],
-    ['VII. ETAPAS DEL MODELO DE CONSEJERÍA',"#etapas-del-modelo"]
+    ['I. INTRODUCCIÓN','#introduccion'],
+    ['II. MARCO NORMATIVO', "#marco-normativo"],
+    ['III. VISIÓN', "#vision"],
+    ['IV. JUSTIFICACIÓN',"#justificacion"],
+    ['V. ACTITUDES CLAVE', "#actitudes-clave"],
+    ['VI. ESTRUCTURA ORGANIZACIONAL', "#estructura-org"],
+    ['VII. ETAPAS DEL MODELO',"#etapas-del-modelo"]
   
 ]
 
@@ -195,41 +195,59 @@ var ElementosDelMenu = [
     {'texto':'Etapa 4', 'bgColor':'#111737', href:'#Fase4'},
 ]
 
+var ElementosDelMenu1 = [
+
+    ['VIII. RECURSOS', "#recursos-disponibles"],
+    ['XI. BIBLIOGRAFIA',"#bibliografia"]
+  
+]
+
 Manual.view = function(vnode) {
     return m('div.container', [
         m('div.content', [
            m('.columns', [
                 m('.column.is-hidden-mobile.is-one-quarter', [
 
-                
-                    m('div', {'style':'position:fixed;border-left:10px solid #D66B31'}, [
-                        m('h5', 'Indice'),
-
+                    m('div', {'style':'position:fixed'}, [
+                        m('h5', {style:{marginTop:'14px'}}, 'Índice'),
+                            
                         ElementosDelMenu0.map(el => {
-                            return m('div', [
+                            return m('div', {style:{'width' : '150px', marginBottom:'10px'}}, [
                                 m('a', {href: el[1]}, el[0])
                             ])
                         }),
-                        
-                        ElementosDelMenu.map(el => {
-                            let style = {
-                                'background-color' :  el.bgColor,
-                                'border-radius' : '40px',
-                                'border-top-left-radius' : '0',
-                                'border-bottom-left-radius' : '0',
-                                'height' : '10px',
-                                'padding' : '20px 0 45px 20px',
-                                'margin' : '20px auto 20px 0',
-                                'width' : '120px',
-                                'color' : '#fbfbfb',
-                                'display' :'block'
-                            };
 
-                            return m('div', [
-                                m('a', {style:style, href:el.href}, el.texto)
+                        m('div', {'style':'border-left:10px solid #D66B31'}, [
+                           
+                            
+
+                            ElementosDelMenu.map(el => {
+                                let style = {
+                                    'background-color' :  el.bgColor,
+                                    'border-radius' : '40px',
+                                    'border-top-left-radius' : '0',
+                                    'border-bottom-left-radius' : '0',
+                                    'height' : '10px',
+                                    'padding' : '20px 0 45px 20px',
+                                    'margin' : '20px auto 20px 0',
+                                    'width' : '120px',
+                                    'color' : '#fbfbfb',
+                                    'display' :'block'
+                                };
+
+                                return m('div', [
+                                    m('a', {style:style, href:el.href}, el.texto)
+                                ])
+                            })
+                        ]),
+
+                        ElementosDelMenu1.map(el => {
+                            return m('div', {style:{'width' : '150px', marginBottom:'10px'}}, [
+                                m('a', {href: el[1]}, el[0])
                             ])
-                         })
+                        }),
                     ])
+                    
                 ]),
 
                 m('.column.is-full-mobile.is-three-quarters-tablet', [
@@ -421,6 +439,27 @@ ConversacionPresencial.view= function(vnode) {
         ])
     ])
     
+}
+
+
+var TablaVinculos = {}
+Tipos.TablaVinculos = TablaVinculos;
+
+TablaVinculos.view = function(vnode) {
+    return m('.table-container', [
+        m('table.table', [
+            m('tbody', [
+                vnode.attrs.elementos.map(el => {
+                    return m('tr', [
+                        m('td', el[0]),
+                        m('td', m('a', {href: el[1]}, el[1]))
+                    ])
+                })
+            ])
+        ]),
+        
+        
+    ])
 }
 
 function Toggle(id) {
