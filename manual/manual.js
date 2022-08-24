@@ -6,7 +6,7 @@ var DatosCronograma = [
         bgColor:'#588AA3',
         actividades : [
             [1, "¡El primer encuentro!",1],
-            [2, "Alistándonos para iniciar el viaje",2]
+            [2, "Alistándonos para iniciar el viaje",2, 'M']
         ],
         duracion: 2
    },
@@ -28,7 +28,7 @@ var DatosCronograma = [
             [7, "Insumos para mi viaje",7],
             [8, "Rumbo a la Estación Empleo",8],
             [9, "Rumbo a la Estación Educativa",9],
-            [10, "Ampliando mis compañeros de viaje",10]
+            [10, "Ampliando mis compañeros de viaje",10, 'M']
         ],
         duracion:5
    },
@@ -36,10 +36,10 @@ var DatosCronograma = [
         fase:"TRANSICIÓN Y SALIDA",
         'bgColor':'#111737',
         actividades : [
-            [11, "El viaje continúa, revisemos sus rutas y cronograma",14],
-            [12, "¿Me hace falta algo para continuar el viaje?",18],
-            [13, "¿Quiénes quiero que sean mis acompañantes especiales de viaje en el futuro y cómo me gustaría que fuera la comunicación con ellos?",22],
-            [14, "Reconociendo los aprendizajes y logros más importantes de mi viaje",26]
+            [11, "El viaje continúa, revisemos sus rutas y cronograma",14, 'M'],
+            [12, "¿Me hace falta algo para continuar el viaje?",18, 'M'],
+            [13, "¿Quiénes quiero que sean mis acompañantes especiales de viaje en el futuro y cómo me gustaría que fuera la comunicación con ellos?",22,'M'],
+            [14, "Reconociendo los aprendizajes y logros más importantes de mi viaje",26, 'M']
         ],
         duracion: 16
    }
@@ -139,39 +139,37 @@ Cronograma.view = function() {
             DatosCronograma.map(fase => {
                 return m('tbody', {style:'border-bottom:1px solid gray'},[
                     fase.actividades.map(act => {
-                        let celnumber =0;
-                        return m('tr', [
+                        let celnumber = 0 ;
+                        let asignarSeccion = () => Cronograma.section = act[2];
+                        let children = [
                             m('th', {
                                 style: {cursor:'pointer',borderBottom:'1px solid white', color:'white', backgroundColor: fase.bgColor},
-                                onclick: () => {
-                                    console.log('click:', act[2])
-                                    Cronograma.section =    act[2]
-                                }
-                            }, 
+                                onclick:asignarSeccion
+                            }, act[1])
+                        ];
+
+                        DatosCronograma.forEach(faseCol => {
+                            for(var i=0; i<faseCol.duracion; i++) {
+                                ++celnumber;
+                                let onclick = act[2] == celnumber ? asignarSeccion : null;
+                                let bgColor = act[2] == celnumber ? faseCol.bgColor : '#ACB9CA';
+                                let cursor  = act[2] == celnumber ? 'pointer' : 'inherit';
+                                let img = act[3] == 'M' ? m('img[src=./icono-movil.png]') : m('img[src=./icono-conversacion.png]');
+                                act[2] == celnumber || (img = null);
+
+                                children.push(
+                                    m('td.has-text-centered', {
+                                        onclick : onclick,
+                                        style: {border:'none', backgroundColor: bgColor, cursor: cursor},
+                                    },m('div', {style:'width:24px;'}, img))
+                                );
+                            }
                             
-                            act[1]),
-                            DatosCronograma.map(faseCol => {
-                                var d = []
-                                for(var i=0; i<faseCol.duracion; i++) {
-                                    ++celnumber;
-                                    d.push(
-                                        m('td', {
-                                            style: {
-                                                border:'none', 
-                                                'background-color': act[2] == celnumber? faseCol.bgColor : '#ACB9CA',
-                                                'cursor': act[2] == celnumber? 'pointer' : 'inherit',
-                                               
-                                            },
-                                            onclick : () => {
-                                                console.log('click:', act[2])
-                                                if(act[2] == celnumber) Cronograma.section = act[2]
-                                            }
-                                        })
-                                    )
-                                }
-                                return d
-                            })
-                        ])
+                        })
+
+                        console.log(children)
+
+                        return m('tr', children);
                     })
                 ])
             })
