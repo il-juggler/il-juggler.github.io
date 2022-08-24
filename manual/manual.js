@@ -46,7 +46,6 @@ var DatosCronograma = [
 ];
 
 var PortadaC = {};
-
 PortadaC.view = function () {
     return m('div#Portada.mt-2.pb-2.mb-2', [
         m(".section.m-4.pt-6.p-4", [
@@ -60,22 +59,21 @@ PortadaC.view = function () {
         ]),
 
         m('.section.has-text-centered', [
-            m('a.is-info.is-outlined.button[href=./Cronograma del Modelo de Consejería.docx]', 'DESCARGAR CRONOGRAMA', m('i.icofont-download')),
+            m('a.is-info.is-outlined.button[href=./ManualModeloConsejeria.pdf]', 'MANUAL DEL MODELO DE CONSEJERÍA', m('i.icofont-download')),
             m('br'),
             m('br'),
-            m('a.button.is-info.is-outlined[href=./Libreta_de_actividades_JuventudES_08 agosto_2022.pdf]', 'DESCARGAR LIBRETA DE ACTIVIDADES', m('i.icofont-download')),
+            m('a.button.is-info.is-outlined[href=./Libreta_de_actividades_JuventudES.pdf]', 'LIBRETA DE ACTIVIDADES', m('i.icofont-download')),
             m('br'),
             m('br'),
-            m('a.button.is-info.is-outlined[href=./Libreta_de_actividades_JuventudES_08 agosto_2022.pdf]', 'DESCARGAR LIBRETA DE ACTIVIDADES', m('i.icofont-download')),
+            m('a.button.is-info.is-outlined[href=./MaterialesImpresionConsejeria.pdf]', 'MATERIALES DE CONSEJERÍA', m('i.icofont-download')),
         ])
-    ])  
+    ])
 }
 
 
 var Cronograma = {}
 Cronograma.show = false;
 Cronograma.section = false;
-
 Cronograma.Boton = function () {
     return m('.has-text-centered', [
         m('a.button.is-success.is-outlined[href=javascript:;]', {
@@ -88,7 +86,6 @@ Cronograma.Boton = function () {
         ]),
     ])
 }
-
 
 Cronograma.BotonVolver = function () {
     return m('.has-text-centered', [
@@ -108,6 +105,7 @@ Cronograma.view = function() {
             m('thead', [
                 m('tr', [
                     m('th', {rowspan:2},'Actividad'),
+
                     DatosCronograma.map(faseCol => {
                         return m('th', {
                             colspan: faseCol.duracion,
@@ -118,16 +116,22 @@ Cronograma.view = function() {
 
                 m('tr', [
                     DatosCronograma.map(faseCol => {
-                        var d = []
+                        var d = [];
+
                         for(var i=0; i<faseCol.duracion; i++) {
                             ++celnumber;
                             d.push(
                                 m('th', {
-                                    style: {textAlign:'center', color:'white', 'background-color':  faseCol.bgColor }
+                                    style : {
+                                        textAlign:'center', 
+                                        color:'white', 
+                                        backgroundColor :  faseCol.bgColor 
+                                    }
                                 }, celnumber)
                             )
                         }
-                        return d
+                        
+                        return d;
                     })
                 ])
             ]),
